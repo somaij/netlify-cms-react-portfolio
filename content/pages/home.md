@@ -1,5 +1,5 @@
 ---
-title: Hello World!
+title: Jason Somai
 featuredImage: /images/uploads/isabella juskova.jpg
 subtitle: This is the home page subtitle
 meta:
