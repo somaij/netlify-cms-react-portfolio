@@ -1,7 +1,7 @@
 ---
 title: Jason Somai
 featuredImage: /images/uploads/isabella juskova.jpg
-subtitle: This is the home page subtitle
+subtitle: Test subtitle
 meta:
   title: ''
 ---
