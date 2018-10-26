@@ -2,7 +2,7 @@
 title: Jason Somai
 featuredImage: /images/uploads/isabella juskova.jpg
 subtitle: Test subtitle
-ctaTitle: Hit Me Up
+ctaTitle: 'Hit Me Up, Yo'
 meta:
   title: Jason Somai's Portfolio
 ---
