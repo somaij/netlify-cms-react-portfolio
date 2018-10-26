@@ -79,6 +79,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Featured Image, name: featuredImage, widget: image}
           - {label: Subtitle, name: subtitle, widget: markdown}
           - {label: Body, name: body, widget: markdown}
+          - {label: CTA Title, name: ctaTitle, widget: string}
+          - {label: CTA Text, name: ctaText, widget: text}
           - label: "Meta"
             required: false
             name: "meta"
