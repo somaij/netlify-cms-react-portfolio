@@ -132,6 +132,26 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Noindex, name: noindex, widget: boolean, required: false}
 
 
+  - name: works
+    label: Work
+    folder: "content/works"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Problem", name: "problem", widget: "markdown"}
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        fields: 
+          - {label: Image, name: image, widget: image}
+          - {label: Caption, name: caption, widget: string}
+      - {label: "Solution", name: "solution", widget: "markdown"}
+      - {label: CTA Title, name: ctaTitle, widget: string}
+      - {label: CTA Text, name: ctaText, widget: text}
+
+
   - name: postCategories
     label: Post Category
     editor:
