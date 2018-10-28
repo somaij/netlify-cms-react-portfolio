@@ -133,6 +133,23 @@ class App extends Component {
               )
             })}
 
+            {works.map((work, index) => {
+              const path = slugify(`/portfolio/${work.title}`)
+              const nextWork = works[index - 1]
+              const prevWork = works[index + 1]
+              return (
+                <RouteWithMeta
+                  key={path}
+                  path={path}
+                  exact
+                  component={SingleWork}
+                  fields={post}
+                  nextPostURL={nextWork && slugify(`/blog/${nextWork.title}/`)}
+                  prevPostURL={prevWork && slugify(`/blog/${prevWork.title}/`)}
+                />
+              )
+            })}
+
             {postCategories.map(postCategory => {
               const slug = slugify(postCategory.title)
               const path = slugify(`/blog/category/${slug}`)
