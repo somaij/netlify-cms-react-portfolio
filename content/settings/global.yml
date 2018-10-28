@@ -1,12 +1,11 @@
-siteTitle: Netlify CMS + React Starter
+siteTitle: Jason Somai's Portfolio
 siteUrl: 'https://netlify-cms-react-starter.netlify.com'
 siteDescription: >-
-  A starter project for creating lightning-fast, offline-first websites with
-  Netlify CMS and React.
+  A collection of Jason Somai's work and blog posts about front end development
+  and user experiences. 
 socialMediaCard:
   image: /images/uploads/card-og.png
-  twitterCreatorAccount: '@Jinksi'
+  twitterCreatorAccount: '@jasonsomai'
   twitterSiteAccount: ''
-headerScripts: |-
-  <!-- Add your analytics scripts / verification meta here -->
+headerScripts: <!-- Add your analytics scripts / verification meta here -->
 enableServiceWorker: false
