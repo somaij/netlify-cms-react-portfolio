@@ -8,6 +8,7 @@ import Home from './views/Home'
 import About from './views/About'
 import Blog from './views/Blog'
 import SinglePost from './views/SinglePost'
+import SingleWork from './views/SingleWork'
 import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
 import Nav from './components/Nav'
@@ -135,17 +136,17 @@ class App extends Component {
 
             {works.map((work, index) => {
               const path = slugify(`/portfolio/${work.title}`)
-              const nextWork = works[index - 1]
-              const prevWork = works[index + 1]
+              const nextWork = work[index - 1]
+              const prevWork = work[index + 1]
               return (
                 <RouteWithMeta
                   key={path}
                   path={path}
                   exact
                   component={SingleWork}
-                  fields={post}
-                  nextPostURL={nextWork && slugify(`/blog/${nextWork.title}/`)}
-                  prevPostURL={prevWork && slugify(`/blog/${prevWork.title}/`)}
+                  fields={work}
+                  nextPostURL={nextWork && slugify(`/portfolio/${nextWork.title}/`)}
+                  prevPostURL={prevWork && slugify(`/portfolio/${prevWork.title}/`)}
                 />
               )
             })}
