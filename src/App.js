@@ -55,6 +55,9 @@ class App extends Component {
     const posts = this.getDocuments('posts').filter(
       post => post.status !== 'Draft'
     )
+    const works = this.getDocuments('works').filter(
+      work => work.status !== 'Draft'
+    )
     const categoriesFromPosts = getCollectionTerms(posts, 'categories')
     const postCategories = this.getDocuments('postCategories').filter(
       category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
