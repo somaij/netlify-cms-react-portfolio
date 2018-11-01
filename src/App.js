@@ -148,8 +148,8 @@ class App extends Component {
                   exact
                   component={SingleWork}
                   fields={work}
-                  nextPostURL={nextWork && slugify(`/portfolio/${nextWork.title}/`)}
-                  prevPostURL={prevWork && slugify(`/portfolio/${prevWork.title}/`)}
+                  nextWorkURL={nextWork && slugify(`/portfolio/${nextWork.title}/`)}
+                  prevWorkURL={prevWork && slugify(`/portfolio/${prevWork.title}/`)}
                 />
               )
             })}
