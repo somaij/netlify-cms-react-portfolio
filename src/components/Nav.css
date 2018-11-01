@@ -1,14 +1,28 @@
 .Nav {
-  background: white;
+  background: var(--primary);
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.Nav a{
+  color:white;
+  font-weight:700;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
   height: 6rem;
+}
+
+.Nav--LinkList{
+  display: flex;
+  width: 100%;
+  align-content: flex-end;
+  justify-content: flex-end;
 }
 
 .Nav .Logo {

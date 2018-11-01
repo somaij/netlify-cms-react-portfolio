@@ -1,27 +1,28 @@
 :root {
-  --primary: #0984d2;
-  --primary-light: #6fadff;
+  --primary: #226CE0;
+  --primary-light:#4C90FF;
+  --primary-dark: #133C7F;
   --secondary: #212121;
-  --lightGrey: whitesmoke;
+  --lightGrey: #fafafa;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  --font-primary: 'Lato', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
   --borderRadius: 3px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900|Poppins:400,600,700,900');
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  background: #FFF;
 }
 
 body {
-  font-family: var(--font-system);
+  font-family: var(--font-primary);
   min-height: 100%;
   position: relative;
   background: white;
@@ -54,6 +55,7 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  font-family: var(--font-heading);
 }
 
 pre {
@@ -167,18 +169,16 @@ blockquote {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  font-size: 1.4rem;
   display: inline-block;
   padding: 1.25rem 3rem;
   border: none;
   transition: all 0.2s ease;
   cursor: pointer;
-  border-radius: var(--borderRadius);
+  font-size: 1.2rem;
 }
 .Button:hover,
 .Button:focus {
-  background: var(--primary-light);
+  background: var(--primary-dark);
   outline: none;
 }
 .Button[disabled] {

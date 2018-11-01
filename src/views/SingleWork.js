@@ -7,58 +7,43 @@ import BackgroundImage from '../components/BackgroundImage'
 import { dateFormatted } from '../util/date'
 import './SingleWork.css'
 
-export default ({ fields, nextWorkURL, prevWorkURL }) => {
-  const { title, date, workFeaturedImage, body, categories = [] } = fields
+export default ({ fields, nextPostURL, prevPostURL }) => {
+  const { title, date, thumbnail, body, categories = [] } = fields
   return (
-    <article className='SingleWork section light'>
-      {workFeaturedImage && (
-        <BackgroundImage
-          className='SingleWork--BackgroundImage'
-          src={workFeaturedImage}
-          alt={title}
-        />
-      )}
-
-      <div className='container skinny'>
-        <Link className='SingleWork--BackButton' to='/blog/'>
-          <ChevronLeft /> BACK
+    <article className='SinglePost section light'>
+     <div className='SingleWork--Header' style={{backgroundImage: `url(${thumbnail})`}}>
+     <div className='container skinny'>
+      <Link className='SinglePost--BackButton' to='/blog/'>
+          <ChevronLeft /> Back
         </Link>
-        <div className='SingleWork--Content relative'>
-          <div className='SingleWork--Meta'>
-            {!!categories.length &&
-              categories.map(obj => (
-                <span key={obj.category} className='SingleWork--Meta--Category'>
-                  {obj.category}
-                </span>
-              ))}
-            {date && (
-              <span className='SingleWork--Meta--Date'>
-                {dateFormatted(date)}
-              </span>
-            )}
-          </div>
+        <div className='SingleWork--Title'>{title && <h1 className='SingleWork--Title'>{title}</h1>}<a href="#" className='Button'>VIEW WEBSITE</a></div>
+        </div>
+      </div>
+      <div className='container skinny'>
+ 
+        
+       
+        <div className='SinglePost--Content relative'>       
 
-          {title && <h1 className='SingleWork--Title'>{title}</h1>}
-
-          <div className='SingleWork--InnerContent'>
+          <div className='SinglePost--InnerContent'>
             <Content source={body} />
           </div>
 
-          <div className='SingleWork--Pagination'>
-            {prevWorkURL && (
+          <div className='SinglePost--Pagination'>
+            {prevPostURL && (
               <Link
-                className='SingleWork--Pagination--Link prev'
-                to={prevWorkURL}
+                className='SinglePost--Pagination--Link prev'
+                to={prevPostURL}
               >
-                Previous Work
+                Previous Post
               </Link>
             )}
-            {nextWorkURL && (
+            {nextPostURL && (
               <Link
-                className='SingleWork--Pagination--Link next'
-                to={nextWorkURL}
+                className='SinglePost--Pagination--Link next'
+                to={nextPostURL}
               >
-                Next Work
+                Next Post
               </Link>
             )}
           </div>

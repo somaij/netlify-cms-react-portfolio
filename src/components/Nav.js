@@ -11,6 +11,7 @@ export default ({ handlePopupOpen }) => (
       <Link to='/'>
         <Logo />
       </Link>
+      <div className='Nav--LinkList'>
       <NavLink to='/' exact>
         Home
       </NavLink>
@@ -23,6 +24,7 @@ export default ({ handlePopupOpen }) => (
       <NavLink to='/contact/' exact>
         Contact
       </NavLink>
+      </div>
     </div>
   </nav>
 )
