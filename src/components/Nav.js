@@ -12,17 +12,14 @@ export default ({ handlePopupOpen }) => (
         <Logo />
       </Link>
       <div className='Nav--LinkList'>
-      <NavLink to='/' exact>
-        Home
-      </NavLink>
-      <NavLink to='/about/' exact>
-        About
+      <NavLink to='/portfolio/' exact>
+      <span class="menu__helper">Portfolio</span>
       </NavLink>
       <NavLink to='/blog/' exact>
-        Blog
+      <span class="menu__helper">Blog</span>
       </NavLink>
       <NavLink to='/contact/' exact>
-        Contact
+      <span class="menu__helper">Contact</span>
       </NavLink>
       </div>
     </div>

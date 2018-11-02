@@ -3,10 +3,5 @@ import React from 'react'
 import './Logo.css'
 
 export default ({ inverted }) => (
-  <div
-    className='Logo'
-    style={{
-      backgroundImage: 'url(/images/logo.svg)'
-    }}
-  />
+  <div className='Logo'><strong>Jason</strong> Somai</div>
 )

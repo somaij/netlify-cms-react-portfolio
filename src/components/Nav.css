@@ -6,10 +6,14 @@
 }
 
 .Nav a{
-  color:white;
+  color:var(--lightGrey);
   font-weight:700;
   font-family: var(--font-heading);
   text-transform: uppercase;
+  text-decoration:none;
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
 }
 
 .Nav--Container {
