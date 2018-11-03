@@ -10,10 +10,10 @@ import './SingleWork.css'
 export default ({ fields, nextPostURL, prevPostURL }) => {
   const { title, date, thumbnail, body, categories = [] } = fields
   return (
-    <article className='SinglePost section light'>
+    <article className='SinglePost'>
      <div className='SingleWork--Header' style={{backgroundImage: `url(${thumbnail})`}}>
-     <div className='container skinny'>
-      <Link className='SinglePost--BackButton' to='/blog/'>
+     <div className='container'>
+      <Link className='SinglePost--BackButton' to='/portfolio/'>
           <ChevronLeft /> Back
         </Link>
         <div className='SingleWork--Title'>{title && <h1 className='SingleWork--Title'>{title}</h1>}<a href="#" className='Button'>VIEW WEBSITE</a></div>

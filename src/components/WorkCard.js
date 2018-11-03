@@ -11,10 +11,10 @@ const WorkCard = ({ postItem, className = '', ...props }) => (
     className={`PostCard ${className}`}
     {...props}
   >
-    {postItem.postFeaturedImage && (
+    {postItem.thumbnail && (
       <div className='PostCard--Image relative'>
         <BackgroundImage
-          src={postItem.postFeaturedImage}
+          src={postItem.thumbnail}
           alt={postItem.title}
         />
       </div>
