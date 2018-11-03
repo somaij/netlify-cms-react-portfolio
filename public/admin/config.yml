@@ -51,7 +51,24 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
-
+      
+      - file: "content/pages/portfolio.md"
+        label: "Portfolio Page"
+        name: "portfolio-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}
+          - {label: Subtitle, name: subtitle, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+      
       - file: "content/pages/about.md"
         label: "About Page"
         name: "about-page"
