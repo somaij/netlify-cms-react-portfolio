@@ -101,6 +101,7 @@ class App extends Component {
               exact
               component={Portfolio}
               fields={this.getDocument('pages', 'portfolio')}
+              works={works}
             />
             <RouteWithMeta
               path='/contact/'
