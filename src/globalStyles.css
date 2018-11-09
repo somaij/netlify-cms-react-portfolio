@@ -153,6 +153,7 @@ blockquote {
   max-width: 1111px;
   width: 90%;
   margin: 0 auto;
+  position: relative;
 }
 .container.skinny {
   max-width: 888px;
@@ -174,7 +175,7 @@ blockquote {
   border: none;
   transition: all 0.2s ease;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .Button:hover,
 .Button:focus {
@@ -193,15 +194,45 @@ blockquote {
 }
 .Button.Button--inverted:hover,
 .Button.Button--inverted:focus {
-  background: transparent;
-  border-color: currentColor;
+  background: black;
+  color:white;
+}
+.cta{
+  margin-top:2rem;
+  background-color:var(--primary);
   color: white;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0)),
-    linear-gradient(
-      -32deg,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.05) 50%,
-      rgba(255, 255, 255, 0) 50%,
-      rgba(255, 255, 255, 0)
-    );
+  text-align: center;
+  padding:3rem 0;
+}
+.cta h2{
+  font-size:3rem;
+}
+
+.dot-section{
+  margin-top:2rem;
+  padding:0 2rem 2rem 2rem;
+  /* border-left:2px solid #CCC; */
+  border-bottom:2px solid #CCC;
+}
+.dot-section::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: calc(100% - 1.5rem);
+  background: #ccc;
+  width: 2px;
+  left: 0;
+  bottom:0;
+}
+.dot-header::before{
+  z-index: 2;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -8px;
+  top: 0.35em;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 2rem;
+  background-color: var(--primary);
 }

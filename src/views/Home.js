@@ -26,14 +26,25 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
         </div>
       </div>
       
+      <div className='container'>
+        <div className="dot-section">
+        <h2 className="dot-header">Work</h2>
+        {!!works.length && <WorkSection works={works} />}
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className="dot-section">
+        <h2 className="dot-header">Blog</h2>
+        {!!posts.length && <PostSection posts={posts} />}
+        </div>
+      </div>
       
-      {!!works.length && <WorkSection works={works} />}
-      {!!posts.length && <PostSection posts={posts} />}
       <div className='cta'>
         <div className='container'>
-          <h2><Content source={ctaTitle} /></h2>
-          <p><Content source={ctaText} /></p>
-          <a href="/contact">CONTACT ME</a>
+          <h2>{ctaTitle}</h2>
+          <p>{ctaText}</p>
+          <a href="/contact" className="Button Button--inverted">CONTACT ME</a>
         </div>
       </div>
     </main>

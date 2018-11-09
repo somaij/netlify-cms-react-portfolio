@@ -35,7 +35,6 @@ class PostSection extends React.Component {
 
     return (
       <div className='PostSection'>
-        <div className='container'>
           {title && <h2 className='PostSection--Title'>{title}</h2>}
           {!!visiblePosts.length && (
             <div className='PostSection--Grid'>
@@ -52,7 +51,6 @@ class PostSection extends React.Component {
               </button>
             </div>
           )}
-        </div>
       </div>
     )
   }

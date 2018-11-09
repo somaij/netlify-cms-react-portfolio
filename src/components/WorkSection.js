@@ -35,7 +35,6 @@ class WorkSection extends React.Component {
 
     return (
       <div className='WorkSection'>
-        <div className='container'>
           {title && <h2 className='WorkSection--Title'>{title}</h2>}
           {!!visibleWorks.length && (
             <div className='PostSection--Grid'>
@@ -52,7 +51,6 @@ class WorkSection extends React.Component {
               </button>
             </div>
           )}
-        </div>
       </div>
     )
   }

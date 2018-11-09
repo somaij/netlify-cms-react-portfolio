@@ -11,7 +11,7 @@ const WorkCard = ({ postItem, className = '', ...props }) => (
     className={`WorkCard ${className}`}
     {...props}
     style={{
-      backgroundColor:'#341232'
+      backgroundColor:'#' + postItem.hex
     }}
   >
     {postItem.thumbnail && (

@@ -1,5 +1,4 @@
 .PostSection {
-  padding: 2rem 0;
 }
 .PostSection .PostCard {
   width: calc(33.33% - 4rem);
@@ -22,21 +21,19 @@
 
   .PostSection .PostCard {
     width: auto;
-    margin: 0 0 4rem 0;
+    
   }
 }
 
 .PostSection--Title {
   width: 100%;
   max-width: 200px;
-  margin: 0 auto 4rem auto;
   line-height: 1.2;
 }
 
 @media screen and (max-width: 750px) {
   .PostSection .PostCard {
     width: 100%;
-    margin: 0 0 4rem 0;
     display: block;
   }
 
@@ -48,7 +45,6 @@
     }
 
     .PostSection .PostCard {
-      margin: 0 0 4rem 0;
     }
   }
 }
