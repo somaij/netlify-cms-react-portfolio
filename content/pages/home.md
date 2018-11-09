@@ -1,7 +1,14 @@
 ---
-title: Jason Somai
+title: UX + Developer
 featuredImage: /images/uploads/2.png
-subtitle: Test subtitle
+subtitle: |-
+  System Analysis
+
+  Wireframing
+
+  UI Design
+
+  Figma/Axure/Adobe XD
 ctaTitle: 'Hit Me Up, Yo'
 ctaText: >-
   I’m always eager to help in anyway I can with development or user experience
