@@ -1,6 +1,9 @@
 ---
 title: NannyTax
+year: '2018'
 subtitle: Test
+shortdesc: WordPress Dev
+hex: DD5DA3
 thumbnail: /images/uploads/card-og.png
 problem: test
 galleryImages:
