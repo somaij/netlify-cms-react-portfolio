@@ -1,6 +1,6 @@
 ---
 title: Jason Somai
-featuredImage: /images/uploads/isabella juskova.jpg
+featuredImage: /images/uploads/2.png
 subtitle: Test subtitle
 ctaTitle: 'Hit Me Up, Yo'
 ctaText: >-
