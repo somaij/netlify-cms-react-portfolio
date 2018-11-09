@@ -21,6 +21,9 @@ html {
   background: #FFF;
 }
 
+::-moz-selection { background: var(--primary); color:#FFF; }
+::selection { background: var(--primary); color:#FFF; }
+
 body {
   font-family: var(--font-primary);
   min-height: 100%;

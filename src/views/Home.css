@@ -1,2 +1,20 @@
-.Home {
+.masthead{
+    background-color:#000;
+    color:#FFF;
+    height:35vh;
+}
+.masthead h1{
+    font-size:5rem;
+}
+.masthead .container{
+    height:100%;
+}
+.masthead .content{
+    display:flex;
+    height:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.masthead .right{
+    text-align: right;
 }

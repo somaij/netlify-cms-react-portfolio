@@ -1,7 +1,7 @@
 import React from 'react'
 import _sortBy from 'lodash/sortBy'
 import Content from '../components/Content'
-import PageHeader from '../components/PageHeader'
+import BackgroundImage from '../components/BackgroundImage'
 import PostSection from '../components/PostSection'
 import WorkSection from '../components/WorkSection'
 import './Home.css'
@@ -13,12 +13,24 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
 
   return (
     <main className='Home'>
-      <PageHeader
-        large
-        title={title}
-        subtitle={subtitle}
-        backgroundImage={featuredImage}
-      />
+    <div className="masthead relative">
+    {featuredImage && (
+        <BackgroundImage src={featuredImage} opacity={0.4} />
+      )}
+    <div className="container">
+    <div className="content">
+    <div className="left">
+    <h1>{title}</h1>
+    <div className="sub1">{subtitle}</div>
+    <div className="sub2">test</div>
+    </div>
+    <div className="right">
+    <h2>Let's Connect</h2>
+    <a href="/contact" className="Button Button--inverted">CONTACT ME</a>
+    </div>
+    </div>
+    </div>
+    </div>
 
       <div className='section'>
         <div className='container'>

@@ -16,13 +16,14 @@ export default ({
 
   return (
     <main className='Portfolio'>
-      <PageHeader
-        title={title}
-        subtitle={subtitle}
-        backgroundImage={featuredImage}
-      />
+    <div className='container'>
+        <div className="dot-section">
+        <h1 className="dot-header">{title}</h1>
+        <p>{subtitle}</p>
+        </div>
+    </div>
 
-      {!!works.length && <WorkSection works={works} />}
+      <div class="container section">{!!works.length && <WorkSection works={works} />}</div>
     </main>
   )
 }
