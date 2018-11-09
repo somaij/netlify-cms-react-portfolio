@@ -95,6 +95,8 @@ class App extends Component {
               component={Home}
               description={siteDescription}
               fields={this.getDocument('pages', 'home')}
+              works={works}
+              posts={posts}
             />
             <RouteWithMeta
               path='/portfolio/'

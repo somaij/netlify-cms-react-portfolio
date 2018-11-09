@@ -155,7 +155,10 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Year", name: "year", widget: "number"}
+      - {label: "Inner Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Outer Short Description", name: "shortdesc", widget: "string"}
+      - {label: "Color Code", name: "hex", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Problem", name: "problem", widget: "markdown"}
       - label: "Gallery"

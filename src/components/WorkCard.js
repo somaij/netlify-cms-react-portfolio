@@ -3,16 +3,19 @@ import { Link } from 'react-router-dom'
 
 import { slugify } from '../util/url'
 import BackgroundImage from './BackgroundImage'
-import './PostCard.css'
+import './WorkCard.css'
 
 const WorkCard = ({ postItem, className = '', ...props }) => (
   <Link
     to={slugify(`/portfolio/${postItem.title}/`)}
-    className={`PostCard ${className}`}
+    className={`WorkCard ${className}`}
     {...props}
+    style={{
+      backgroundColor:'#341232'
+    }}
   >
     {postItem.thumbnail && (
-      <div className='PostCard--Image relative'>
+      <div className='WorkCard--Image relative'>
         <BackgroundImage
           src={postItem.thumbnail}
           alt={postItem.title}
@@ -20,10 +23,11 @@ const WorkCard = ({ postItem, className = '', ...props }) => (
       </div>
     )}
 
-    <div className='PostCard--Content'>
-      {postItem.title && <h3 className='PostCard--Title'>{postItem.title}</h3>}
+    <div className='WorkCard--Content'>
+      {postItem.title && <h3>2018</h3>}
+      {postItem.title}
       {postItem.excerpt && (
-        <div className='PostCard--Excerpt'>
+        <div className='WorkCard--Excerpt'>
           {postItem.excerpt.length > 160
             ? postItem.excerpt.slice(0, 157) + '...'
             : postItem.excerpt}

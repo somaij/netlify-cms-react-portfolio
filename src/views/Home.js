@@ -2,7 +2,6 @@ import React from 'react'
 import _sortBy from 'lodash/sortBy'
 import Content from '../components/Content'
 import PageHeader from '../components/PageHeader'
-import PostCategoriesNav from '../components/PostCategoriesNav'
 import PostSection from '../components/PostSection'
 import WorkSection from '../components/WorkSection'
 import './Home.css'
@@ -27,6 +26,9 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
         </div>
       </div>
       
+      
+      {!!works.length && <WorkSection works={works} />}
+      {!!posts.length && <PostSection posts={posts} />}
       <div className='cta'>
         <div className='container'>
           <h2><Content source={ctaTitle} /></h2>
@@ -34,11 +36,6 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
           <a href="/contact">CONTACT ME</a>
         </div>
       </div>
-      {!!postCategories.length && (
-        <PostCategoriesNav categories={postCategories} />
-      )}
-      {!!posts.length && <PostSection posts={posts} />}
-      {!!works.length && <WorkSection works={works} />}
     </main>
   )
 }
