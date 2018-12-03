@@ -25,11 +25,17 @@ export default ({
         </div>
     </div>
 
+      
+
+      <div class="container post-section">
+      <div class="posts">{!!posts.length && <PostSection posts={posts} />}</div>
+      <div class="post-categories">
+      <h2>Categories</h2>
       {!!postCategories.length && (
         <PostCategoriesNav categories={postCategories} />
       )}
-
-      {!!posts.length && <PostSection posts={posts} />}
+      </div>
+      </div>
     </main>
   )
 }

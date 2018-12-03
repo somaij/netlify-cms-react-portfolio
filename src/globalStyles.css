@@ -239,3 +239,14 @@ blockquote {
   border-radius: 2rem;
   background-color: var(--primary);
 }
+.post-section{
+  display: flex;
+  flex-direction: row;
+  margin-top:5rem;
+  margin-bottom: 2rem;
+}
+.post-section .post-categories{
+  border-left:#ccc 1px solid;
+  padding:0 1rem;
+  margin:0 1rem 0 3rem;
+}
