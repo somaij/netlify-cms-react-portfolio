@@ -4,6 +4,10 @@
   color: inherit;
   transition: all 0.15s ease-in-out;
   overflow: hidden;
+  padding:1rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .PostCard:hover,
@@ -13,20 +17,25 @@
 }
 
 .PostCard--Image {
-  margin: 0 0 2rem 0;
   width: 100%;
   height: 15rem;
 }
 
 .PostCard--Title {
+  justify-self: flex-start;
   margin: 0;
 }
 
 .PostCard--Content {
-  padding: 0 2.5rem 2.5rem;
+  padding: 0 0 2.5rem;
 }
 
 .PostCard--Category {
   font-size: 1rem;
   text-align: right;
+}
+
+.PostCard .Button{
+  margin-top:2rem;
+  text-align:center;
 }

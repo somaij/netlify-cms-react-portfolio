@@ -31,13 +31,6 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
     </div>
     </div>
     </div>
-
-      <div className='section'>
-        <div className='container'>
-          <Content source={body} />
-        </div>
-      </div>
-      
       <div className='container'>
         <div className="dot-section">
         <h2 className="dot-header">Work</h2>
