@@ -4,30 +4,30 @@
   color: inherit;
   transition: all 0.15s ease-in-out;
   overflow: hidden;
-  padding:1rem;
+  padding:2rem;
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
 .PostCard:hover,
 .PostCard:focus {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
 }
-
+.PostCard:hover .PostCard--Title{
+  color: var(--primary);
+}
 .PostCard--Image {
   width: 100%;
   height: 15rem;
+  margin-bottom:1rem;
 }
 
 .PostCard--Title {
-  justify-self: flex-start;
   margin: 0;
 }
 
 .PostCard--Content {
-  padding: 0 0 2.5rem;
 }
 
 .PostCard--Category {
@@ -38,4 +38,6 @@
 .PostCard .Button{
   margin-top:2rem;
   text-align:center;
+  display:inline-block;
+  align-self:center;
 }
