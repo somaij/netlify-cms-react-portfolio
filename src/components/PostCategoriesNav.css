@@ -1,11 +1,26 @@
 .PostCategoriesNav {
-  text-align: left;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .PostCategoriesNav a{
   color: var(--secondary);
   text-decoration: none;
+  margin-right:1rem;
+}
+.PostCategoriesNav a:last-of-type{
+  margin-right:0;
+}
+@media screen and (min-width:768px){
+  .PostCategoriesNav {
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .PostCategoriesNav a{
+    margin-left:initial;
+  }
 }

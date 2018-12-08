@@ -241,12 +241,22 @@ blockquote {
 }
 .post-section{
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   margin-top:5rem;
   margin-bottom: 2rem;
 }
 .post-section .post-categories{
-  border-left:#ccc 1px solid;
   padding:0 1rem;
-  margin:0 1rem 0 3rem;
+  text-align: center;
+}
+
+@media screen and (min-width:768px){
+  .post-section{
+    flex-direction:row;
+  }
+  .post-section .post-categories{
+    border-left:#ccc 1px solid;
+    margin:0 1rem 0 3rem;
+    text-align:left;
+  }
 }

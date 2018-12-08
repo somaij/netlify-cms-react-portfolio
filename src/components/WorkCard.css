@@ -8,7 +8,7 @@
     font-size:1.4rem;
     transition: all 0.15s ease-in-out;
     overflow: hidden;
-    margin-bottom:2rem;
+    margin:0 2rem 2rem 2rem;
   }
   
   .WorkCard:hover,

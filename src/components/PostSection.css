@@ -16,7 +16,7 @@
   .PostSection--Grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4rem;
+    grid-gap: 0;
   }
 
   .PostSection .PostCard {
@@ -29,6 +29,15 @@
   width: 100%;
   max-width: 200px;
   line-height: 1.2;
+}
+@media screen and (max-width: 1024px) {
+
+  @supports (display: grid) {
+    .PostSection--Grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
 }
 
 @media screen and (max-width: 750px) {
