@@ -1,19 +1,18 @@
 .WorkCard {
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
     text-decoration: none;
     color: #FFF;
     font-size:1.4rem;
     transition: all 0.15s ease-in-out;
     overflow: hidden;
+    margin-bottom:2rem;
   }
   
   .WorkCard:hover,
   .WorkCard:focus {
-    transform: translateY(-1px);
     box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
   }
   
@@ -44,3 +43,9 @@
     text-align: right;
   }
   
+  @media screen and (min-width:750px){
+    .WorkCard{
+      height: 150px;
+      margin-bottom:inherit;
+    }
+  }
