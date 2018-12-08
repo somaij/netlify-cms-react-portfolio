@@ -20,9 +20,22 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
     <div className="container">
     <div className="content">
     <div className="left">
-    <h1>{title}</h1>
-    <div className="sub1">{subtitle}</div>
-    <div className="sub2">test</div>
+    <div class="roles">
+    <div className="dot-section sub1">
+        <h1 className="dot-header">UX</h1>
+System Analysis<br/>
+Wireframing<br/>
+UI Design<br/>
+Axure & Adobe XD
+    </div>
+    <div className="dot-section sub2">
+        <h1 className="dot-header">Developer</h1>
+        HTML & SASS <br/> WordPress & PHP<br/>
+JQuery<br/>
+Shopify Liquid<br/>
+Email Marketing<br/>
+    </div>
+    </div>
     </div>
     <div className="right">
     <h2>Let's Connect</h2>

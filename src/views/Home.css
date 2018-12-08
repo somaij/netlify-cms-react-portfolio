@@ -1,7 +1,7 @@
 .masthead{
     background-color:#000;
     color:#FFF;
-    height:35vh;
+    padding:1rem 0;
 }
 .masthead h1{
     font-size:5rem;
@@ -14,7 +14,82 @@
     height:100%;
     align-items: center;
     justify-content: space-between;
+    flex-direction:column;
 }
-.masthead .right{
-    text-align: right;
+
+.roles{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+}
+.dot-section.sub1 .dot-header::before, .dot-section.sub2 .dot-header::before{
+    background-color:#FFF;
+}
+@media screen and (min-width:768px){
+    .masthead{
+        height:300px;
+    }
+    .masthead .content, .roles{
+        flex-direction: row;
+    }
+    .masthead .right{
+        text-align: right;
+    }
+    .sub1{
+        width:200px;
+    }
+    .sub2{
+        margin-left:1rem;
+        width:300px;
+    }
+    .dot-section.sub1 .dot-header::before, .dot-section.sub2 .dot-header::before{
+        top:5.5rem;
+    }
+    .dot-section.sub2 .dot-header::before{
+        left:202px;
+    }
+    .dot-section.sub1::after, .dot-section.sub2::after{
+        height:calc(100% - 6rem);
+        bottom:0.5rem;
+    }
+    .dot-section.sub2::after{
+        left:210px;
+    }
+}
+@media screen and (max-width:767px){
+    .dot-section.sub1 .dot-header::before{
+        top:5.5rem;
+        left:calc(49.5% - 16rem);
+    }
+    .dot-section.sub2 .dot-header::before{
+        top:calc(70% - 13.5rem);
+        left:calc(49.5% - 16rem);
+    }
+    .dot-section.sub1::after{
+        top:6rem;
+        left:calc(51% - 16rem);
+        height:calc(50% - 12.6rem)
+    }
+    .dot-section.sub2::after{
+        top:calc(70% - 12.2rem);
+        left:calc(51% - 16rem);
+        height:calc(50% - 11rem)
+    }
+    .right{
+        margin-top:1rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .dot-section.sub1 .dot-header::before{
+        top:5.5rem;
+        left:calc(49.5% - 15.8rem);
+    }
+    .dot-section.sub2 .dot-header::before{
+        top:calc(70% - 13.5rem);
+        left:calc(49.5% - 15.8rem);
+    }
+    .dot-section.sub1::after, .dot-section.sub2::after{
+        left:calc(51% - 15.7rem);
+    }
 }

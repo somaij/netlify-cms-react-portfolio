@@ -14,21 +14,33 @@
   transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
+  
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 6rem;
+  padding:0.5rem;
+  flex-direction: column;
 }
 
 .Nav--LinkList{
   display: flex;
   width: 100%;
-  align-content: flex-end;
-  justify-content: flex-end;
+  align-content: center;
+  justify-content: center;
 }
 
 .Nav .Logo {
-  margin-right: 3rem;
+  white-space: nowrap;
+}
+
+@media screen and (min-width:500px){
+  .Nav--Container{
+    flex-direction:row;
+  }
+  .Nav--LinkList{
+      align-content: flex-end;
+  justify-content: flex-end;
+  }
 }
