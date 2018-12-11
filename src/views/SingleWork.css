@@ -2,15 +2,23 @@
 }
 
 .SingleWork--Header {
-  height: 30rem;
+  height: 300px;
   color: white;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top:3rem;
 }
 .SingleWork--Title{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.SingleWork--Title .dot-section .dot-header:before{
+  background-color:#FFF;
+  top:6rem;
+}
+.SingleWork--Title .dot-section:after{
+  height:calc(100% - 6rem);
 }
 .SinglePost--BackButton {
   color: white;

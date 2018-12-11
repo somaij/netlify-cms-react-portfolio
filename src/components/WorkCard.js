@@ -24,15 +24,9 @@ const WorkCard = ({ postItem, className = '', ...props }) => (
     )}
 
     <div className='WorkCard--Content'>
-      {postItem.title && <h3>2018</h3>}
-      {postItem.title}
-      {postItem.excerpt && (
-        <div className='WorkCard--Excerpt'>
-          {postItem.excerpt.length > 160
-            ? postItem.excerpt.slice(0, 157) + '...'
-            : postItem.excerpt}
-        </div>
-      )}
+      <strong>{postItem.year}</strong>
+      {postItem.title}<br/>
+      {postItem.shortdesc}
     </div>
   </Link>
 )

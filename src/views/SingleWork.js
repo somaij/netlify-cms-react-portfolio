@@ -5,10 +5,11 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import BackgroundImage from '../components/BackgroundImage'
 import { dateFormatted } from '../util/date'
+import { getImageSrc } from '../util/getImageUrl'
 import './SingleWork.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
-  const { title, date, thumbnail, body, categories = [] } = fields
+  const { title, date, subtitle, problem, solution, galleryImages = [], thumbnail, body, categories = [] } = fields
   return (
     <article className='SinglePost'>
      <div className='SingleWork--Header' style={{backgroundImage: `url(${thumbnail})`}}>
@@ -16,20 +17,37 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
       <Link className='SinglePost--BackButton' to='/portfolio/'>
           <ChevronLeft /> Back
         </Link>
-        <div className='SingleWork--Title'>{title && <h1 className='SingleWork--Title'>{title}</h1>}<a href="#" className='Button'>VIEW WEBSITE</a></div>
+        <div className='SingleWork--Title'>
+        <div className="dot-section">
+        <div className="dot-header">{title && <h1 className='SingleWork--Title'>{title}</h1>}</div>
+        {subtitle}
         </div>
-      </div>
-      <div className='container skinny'>
- 
+        <a href="#" className='Button'>VIEW WEBSITE</a></div>
+        </div>
         
-       
-        <div className='SinglePost--Content relative'>       
-
-          <div className='SinglePost--InnerContent'>
-            <Content source={body} />
-          </div>
-
-          <div className='SinglePost--Pagination'>
+    </div>
+    <div className="container skinny">
+    <div className="dot-section">
+      <h2 className="dot-header">Problem</h2>
+      {problem}
+    </div>   
+    </div>
+    <div className="container skinny">
+    <div className="dot-section">
+      <h2 className="dot-header">Solution</h2>
+      {!!galleryImages.length &&
+              galleryImages.map(obj => (
+                <span key={obj.image} className='SinglePost--Meta--Category'>
+                <a className="PortfolioGal" href={obj.image}><img src={getImageSrc(obj.image, 300)}/><br/>{obj.caption}</a>
+                
+                </span>
+              ))}
+      <hr/>
+      {solution}
+    </div>   
+    </div>
+    <div className="container">
+    <div className='SinglePost--Pagination'>
             {prevPostURL && (
               <Link
                 className='SinglePost--Pagination--Link prev'
@@ -47,8 +65,7 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
               </Link>
             )}
           </div>
-        </div>
-      </div>
+    </div>
     </article>
   )
 }
