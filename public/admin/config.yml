@@ -155,6 +155,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
       - {label: "Year", name: "year", widget: "number"}
       - {label: "Inner Subtitle", name: "subtitle", widget: "string"}
       - {label: "Outer Short Description", name: "shortdesc", widget: "string"}
@@ -167,10 +168,12 @@ collections: # A list of collections the CMS should be able to edit
         fields: 
           - {label: Image, name: image, widget: image}
           - {label: Caption, name: caption, widget: string}
+          - {label: Button Link, name: btnlink, widget: string}
+          - {label: Button Text, name: btntext, widget: string}
       - {label: "Solution", name: "solution", widget: "markdown"}
       - {label: CTA Title, name: ctaTitle, widget: string}
       - {label: CTA Text, name: ctaText, widget: text}
-
+      - {label: CTA Button Text, name: ctabtn, widget: text}
 
   - name: postCategories
     label: Post Category
