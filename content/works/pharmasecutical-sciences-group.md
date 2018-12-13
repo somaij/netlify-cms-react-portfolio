@@ -12,6 +12,10 @@ galleryImages:
     btntext: View Wireframe
     caption: Caption
     image: /images/uploads/mark-chang-74-3.jpg
+  - btnlink: 'https://psg.ca'
+    btntext: View Website
+    caption: Website
+    image: /images/uploads/unsplash4.jpg
 solution: "When I first started my role at napkin marketing, I did some cursory research into the possibilities of what solutions I could conjure up. I created a matrix to weigh the pros and cons, then discussed it with the team. Once I had a concrete idea of what could be accomplished, I created a wireframe that portrayed the numerous set of actions a user could take. From the initial sign up to registering for an event, as well as other actions a member would be able to take.\r\n\nOnce the prototype was finalized, I worked closely with the designer and the outsourced front-end developers so that I could focus on the back-end development. S2Member is a membership plugin that accepts and automates reccuring payments through PayPal. The plugin also allows the administrator to block off certain parts of the website. To handle the events, I decided on Event Espresso because of its add-on plugin which allows Event Espresso to limit the sale of tickets to the appropriate S2Member membership level. It also had convenient features like mass emailing attendees and automated accounting features."
 ctaTitle: Get in Touch
 ctaText: >-
