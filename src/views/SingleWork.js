@@ -29,21 +29,23 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
     <div className="container skinny">
     <div className="dot-section">
       <h2 className="dot-header">Problem</h2>
-      {problem}
+      <Content source={problem}/>
     </div>   
     </div>
     <div className="container skinny">
     <div className="dot-section">
       <h2 className="dot-header">Solution</h2>
+      <div className="portfolio-gallery">
       {!!galleryImages.length &&
               galleryImages.map(obj => (
-                <span key={obj.image} className='SinglePost--Meta--Category'>
-                <a className="PortfolioGal" href={obj.image}><img src={getImageSrc(obj.image, 300)}/><br/>{obj.caption}</a>
-                
-                </span>
+                <div key={obj.image} className='GalleryItem'>
+                <a className="ItemImage" href={obj.image}><img src={getImageSrc(obj.image, 300)}/><br/>                </a>
+                <span className="ItemCaption">{obj.caption}</span><br/>
+                <a className="Button" href={obj.btnlink}>{obj.btntext}</a>
+                </div>
               ))}
-      <hr/>
-      {solution}
+      </div>
+      <Content source={solution}/>
     </div>   
     </div>
     <div className="container">

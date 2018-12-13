@@ -52,14 +52,30 @@
   }
 }
 
-.SinglePost--Meta {
-  font-size: 1rem;
-  margin: 0 0 2rem 0;
+.GalleryItem{
   text-align: center;
+  background-color:#FFF;
+  padding:2rem;
+  display:flex;
+  flex-direction: column;
+  box-shadow:#999 0px 0px 20px;
 }
-
-.SinglePost--Meta > * + * {
-  margin-left: 0.75em;
+.ItemImage img{
+  width:100%; 
+  max-width:220px;
+}
+.GalleryItem .ItemCaption{
+  color:var(--primary);
+  font-size:1.4rem;
+}
+.portfolio-gallery{
+  background:#CCC;
+  padding:3rem 0;
+  margin-bottom:2rem;
+  margin-left:-2rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
 }
 
 .SinglePost--Title {
