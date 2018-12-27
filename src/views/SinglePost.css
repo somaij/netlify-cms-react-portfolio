@@ -5,6 +5,27 @@
   height: 50rem;
 }
 
+
+.SinglePost--Header {
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  padding-top:3rem;
+}
+.SinglePost--Title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SinglePost--Title .dot-section .dot-header:before{
+  background-color:#FFF;
+  top:6rem;
+}
+.SinglePost--Title .dot-section:after{
+  height:calc(100% - 6rem);
+}
+
 .SinglePost--BackButton {
   color: white;
   position: relative;

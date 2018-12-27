@@ -5,19 +5,25 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import BackgroundImage from '../components/BackgroundImage'
 import { dateFormatted } from '../util/date'
+import { getImageSrc } from '../util/getImageUrl'
 import './SinglePost.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
   const { title, date, postFeaturedImage, body, categories = [] } = fields
   return (
-    <article className='SinglePost section light'>
-      {postFeaturedImage && (
-        <BackgroundImage
-          className='SinglePost--BackgroundImage'
-          src={postFeaturedImage}
-          alt={title}
-        />
-      )}
+    <article className='SinglePost'>
+           <div className='SinglePost--Header' style={{backgroundImage: `url(${postFeaturedImage})`}}>
+     <div className='container'>
+      <Link className='SinglePost--BackButton' to='/blog/'>
+          <ChevronLeft /> Back
+        </Link>
+        <div className='SinglePost--Title'>
+        <div className="dot-section">
+        <div className="dot-header">{title && <h1 className='SingleWork--Title'>{title}</h1>}</div>
+        </div></div>
+        </div>
+        
+    </div>
 
       <div className='container skinny'>
         <Link className='SinglePost--BackButton' to='/blog/'>
