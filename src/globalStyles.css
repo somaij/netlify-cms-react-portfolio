@@ -184,7 +184,7 @@ blockquote {
 .Button:focus {
   background: var(--primary-dark);
   outline: none;
-  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 .Button[disabled] {
   opacity: 0.4;

@@ -12,24 +12,16 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
   const { title, date, postFeaturedImage, body, categories = [] } = fields
   return (
     <article className='SinglePost'>
-           <div className='SinglePost--Header' style={{backgroundImage: `url(${postFeaturedImage})`}}>
-     <div className='container'>
+    <div className='SinglePost--Header test' style={{backgroundImage: `url(${postFeaturedImage})`}}>
+    <div className='container'>
       <Link className='SinglePost--BackButton' to='/blog/'>
           <ChevronLeft /> Back
-        </Link>
-        <div className='SinglePost--Title'>
+      </Link>
+      <div className='SinglePost--Title'>
         <div className="dot-section">
-        <div className="dot-header">{title && <h1 className='SingleWork--Title'>{title}</h1>}</div>
-        </div></div>
-        </div>
-        
-    </div>
-
-      <div className='container skinny'>
-        <Link className='SinglePost--BackButton' to='/blog/'>
-          <ChevronLeft /> BACK
-        </Link>
-        <div className='SinglePost--Content relative'>
+          <div className="dot-header">
+            {title && <h1 className='SingleWork--Title'>{title}</h1>}
+          </div>
           <div className='SinglePost--Meta'>
             {!!categories.length &&
               categories.map(obj => (
@@ -43,9 +35,14 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
               </span>
             )}
           </div>
+        </div>
+      </div>
+    </div>
+        
+    </div>
 
-          {title && <h1 className='SinglePost--Title'>{title}</h1>}
-
+      <div className='container skinny'>
+        <div className='SinglePost--Content relative'>
           <div className='SinglePost--InnerContent'>
             <Content source={body} />
           </div>
