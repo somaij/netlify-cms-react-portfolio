@@ -23,17 +23,17 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
             {title && <h1 className='SingleWork--Title'>{title}</h1>}
           </div>
           <div className='SinglePost--Meta'>
+          {date && (
+              <div className='SinglePost--Meta--Date'>{dateFormatted(date)}</div>
+            )}
+
             {!!categories.length &&
               categories.map(obj => (
-                <span key={obj.category} className='SinglePost--Meta--Category'>
+                <div key={obj.category} className='SinglePost--Meta--Category'>
                   {obj.category}
-                </span>
+                </div>
               ))}
-            {date && (
-              <span className='SinglePost--Meta--Date'>
-                {dateFormatted(date)}
-              </span>
-            )}
+            
           </div>
         </div>
       </div>
@@ -42,12 +42,8 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
     </div>
 
       <div className='container skinny'>
-        <div className='SinglePost--Content relative'>
-          <div className='SinglePost--InnerContent'>
-            <Content source={body} />
-          </div>
-
-          <div className='SinglePost--Pagination'>
+      <Content source={body} />
+      <div className='SinglePost--Pagination'>
             {prevPostURL && (
               <Link
                 className='SinglePost--Pagination--Link prev'
@@ -65,7 +61,6 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
               </Link>
             )}
           </div>
-        </div>
       </div>
     </article>
   )

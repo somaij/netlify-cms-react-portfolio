@@ -1,4 +1,41 @@
 .Footer {
   padding: 3rem 0;
-  background: var(--lightGrey);
+  background: #000;
+  color:#CCC;
+}
+.Footer .container{
+  display:flex;
+  justify-content: space-between;
+}
+.Logo{
+  font-family:var(--font-heading);
+  text-transform: uppercase;
+}
+.left{
+
+}
+.right{
+  text-align:right;
+  display:flex;
+  width:70%;
+  justify-content: flex-end;
+}
+.right .col{
+  padding:0 1rem;
+}
+.link-list ul{
+  margin:0;
+  padding:0;
+}
+.link-list ul li{
+  list-style-type: none;
+  display:inline-block;
+
+}
+.link-list li + li::before {
+  margin:0 0.6rem;
+  content: "|";
+}
+.link-list a{
+  color:#CCC;
 }
