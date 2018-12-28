@@ -4,7 +4,7 @@
     flex-direction: row;
     align-content: center;
     text-decoration: none;
-    color: #FFF;
+    color: #EEE;
     font-size:1.4rem;
     transition: all 0.15s ease-in-out;
     overflow: hidden;
@@ -13,8 +13,9 @@
   
   .WorkCard:hover,
   .WorkCard:focus {
-    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
     z-index: 1;
+    color:#FFF;
+    background-color:#000!important;
   }
   
   .WorkCard--Image {
@@ -44,6 +45,17 @@
     text-align: right;
   }
   
+.WorkCard--Button{
+  font-weight:bold;
+  text-transform: uppercase;
+  width:100%;
+  margin-top:0.5rem;
+}
+.WorkCard:hover .WorkCard--Button,
+  .WorkCard:focus .WorkCard--Button{
+    color:var(--primary);
+  }
+
   @media screen and (min-width:750px){
     .WorkCard{
       height: 135px;

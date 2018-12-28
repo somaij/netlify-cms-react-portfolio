@@ -27,6 +27,7 @@ const WorkCard = ({ postItem, className = '', ...props }) => (
       <strong>{postItem.year}</strong>
       {postItem.title}<br/>
       {postItem.shortdesc}
+      <div className='WorkCard--Button'>Read</div>
     </div>
   </Link>
 )
