@@ -33,9 +33,8 @@ const PostCard = ({ postItem, className = '', ...props }) => (
       )}
       
     </div>
-    <Link
-    to={slugify(`/blog/${postItem.title}/`)}
-    className={`Button`}>Read More</Link>
+    <div
+    className={`PostCard--Button`}>Read</div>
   </Link>
 )
 
