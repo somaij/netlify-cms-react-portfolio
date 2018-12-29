@@ -10,9 +10,7 @@ problem: "I refer to this project as the magnum opus of my time spent at napkin 
 galleryImages:
   - btnlink: 'https://v92egm.axshare.com/#g=1&p=home'
     btntext: View Wireframe
-    caption: >-
-      This was a wireframe that I had built in Axure. It showed in great detail
-      every step a person would take to sign up for membership and events.
+    caption: A wireframe built in Axure that details sign-up and event registration.
     image: /images/uploads/psg-wireframe.jpg
   - btnlink: 'https://psg.ca'
     btntext: View Website
