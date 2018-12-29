@@ -9,20 +9,20 @@ import { getImageSrc } from '../util/getImageUrl'
 import './SingleWork.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
-  const { title, date, subtitle, problem, solution, galleryImages = [], thumbnail, body, categories = [] } = fields
+  const { title, date, subtitle, link, problem, solution, galleryImages = [], thumbnail, body, categories = [] } = fields
   return (
     <article className='SinglePost'>
      <div className='SingleWork--Header' style={{backgroundImage: `url(${thumbnail})`}}>
      <div className='container'>
       <Link className='SinglePost--BackButton' to='/portfolio/'>
-          <ChevronLeft /> Back
+          <ChevronLeft /> Portfolio
         </Link>
         <div className='SingleWork--Title'>
         <div className="dot-section">
         <div className="dot-header">{title && <h1 className='SingleWork--Title'>{title}</h1>}</div>
         {subtitle}
         </div>
-        <a href="#" className='Button'>VIEW WEBSITE</a></div>
+        <a href={link} className='Button'>VIEW WEBSITE</a></div>
         </div>
         
     </div>

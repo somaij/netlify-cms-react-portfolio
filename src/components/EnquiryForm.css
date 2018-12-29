@@ -11,12 +11,18 @@
   margin-top: 2rem;
 }
 
+.EnquiryForm--Element{
+  display:flex;
+  flex-direction: column-reverse;
+  width:100%;
+  transition: all 0.2s ease;
+}
+
 .EnquiryForm--Label {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   position: relative;
+  font-size: 1.2rem;
+  font-weight:700;
+  transition: all 0.2s ease;
 }
 
 .EnquiryForm--Input {
@@ -25,12 +31,15 @@
   box-sizing: border-box;
   display: block;
   margin: 0;
-  border: 1px solid #bababa;
-  padding: 1.5rem 2rem;
-  border-radius: var(--borderRadius);
-  line-height: 1.25em;
+  border: 2px solid #ccc;
+  padding: 1.5rem;
   transition: border-color 0.2s;
   resize: none;
+  width:100%;
+}
+
+input:placeholder-shown, textarea:placeholder-shown {
+  border-color:#777;
 }
 
 .EnquiryForm--Select {
@@ -57,9 +66,11 @@
 
 .EnquiryForm--Input:focus {
   outline: none;
-  border-color: black;
+  border-color: var(--primary);
 }
-
+.EnquiryForm--Input:focus ~ label{
+  color: var(--primary);
+}
 .EnquiryForm--Input[disabled],
 .EnquiryForm--SubmitButton[disabled] {
   opacity: 0.4;

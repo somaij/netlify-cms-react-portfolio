@@ -69,55 +69,43 @@ class Form extends React.Component {
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>{this.state.alert}</div>
         )}
-        <label className='EnquiryForm--Label'>
+        <div className="EnquiryForm--Element">
           <input
             className='EnquiryForm--Input'
             type='text'
-            placeholder='Name'
+            placeholder='Jason Somai'
             name='name'
             required
           />
-        </label>
-        <label className='EnquiryForm--Label'>
+        <label className='EnquiryForm--Label' for='name'>Your Name</label>
+        </div>
+        <div className="EnquiryForm--Element">
           <input
             className='EnquiryForm--Input'
             type='email'
-            placeholder='Email'
+            placeholder='jason@email.com'
             name='email'
             required
           />
-        </label>
-        <label className='EnquiryForm--Label has-arrow'>
-          <select
-            className='EnquiryForm--Input EnquiryForm--Select'
-            name='type'
-            defaultValue='Type of Enquiry'
-            required
-          >
-            <option disabled hidden>
-              Type of Enquiry
-            </option>
-            <option>Need to know more</option>
-            <option>Found a bug</option>
-            <option>Want to say hello</option>
-          </select>
-        </label>
-        <label className='EnquiryForm--Label'>
+          <label className='EnquiryForm--Label' for='email'>Your Email</label>
+        </div>
+        <div className="EnquiryForm--Element">
           <textarea
             className='EnquiryForm--Input EnquiryForm--Textarea'
-            placeholder='Message'
+            placeholder='Your stuff is neat! I have a question about...'
             name='message'
             rows='10'
             required
           />
-        </label>
+          <label className='EnquiryForm--Label' for='message'>Your Message</label>
+        </div>
         <input type='text' name='_gotcha' style={{ display: 'none' }} />
         {!!subject && <input type='hidden' name='subject' value={subject} />}
         <input type='hidden' name='form-name' value={name} />
         <input
           className='Button EnquiryForm--SubmitButton'
           type='submit'
-          value='Enquire'
+          value='Send'
           disabled={this.state.disabled}
         />
       </form>

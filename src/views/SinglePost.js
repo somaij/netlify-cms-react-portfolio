@@ -15,7 +15,7 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
     <div className='SinglePost--Header test' style={{backgroundImage: `url(${postFeaturedImage})`}}>
     <div className='container'>
       <Link className='SinglePost--BackButton' to='/blog/'>
-          <ChevronLeft /> Back
+          <ChevronLeft /> Blog
       </Link>
       <div className='SinglePost--Title'>
         <div className="dot-section">

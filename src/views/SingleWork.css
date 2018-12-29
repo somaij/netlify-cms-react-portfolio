@@ -67,6 +67,9 @@
   box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease;
 }
+.ItemImage{
+  overflow:hidden;
+}
 .ItemImage img{
   height:100%; 
   max-height:120px;
