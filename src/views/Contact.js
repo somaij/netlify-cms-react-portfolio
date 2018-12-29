@@ -7,7 +7,7 @@ import Content from '../components/Content'
 import './Contact.css'
 
 export default ({ fields }) => {
-  const { body, title, subtitle, featuredImage, address, phone, email } = fields
+  const {title, subtitle } = fields
   return (
     <div className='Contact'>
      <div className='container'>
@@ -19,37 +19,18 @@ export default ({ fields }) => {
 
       <div className='section Contact--Section1'>
         <div className='container Contact--Section1--Container'>
-          <div>
-            <Content source={body} />
-
-            <div className='Contact--Details'>
-              {address && (
-                <a
-                  className='Contact--Details--Item'
-                  href={`https://www.google.com.au/maps/search/${encodeURI(
-                    address
-                  )}`}
-                  target='_blank'
-                >
-                  <MapPin /> {address}
-                </a>
-              )}
-              {phone && (
-                <a className='Contact--Details--Item' href={`tel:${phone}`}>
-                  <Smartphone /> {phone}
-                </a>
-              )}
-              {email && (
-                <a className='Contact--Details--Item' href={`mailto:${email}`}>
-                  <Mail /> {email}
-                </a>
-              )}
-            </div>
-          </div>
-
-          <div>
+        <div>
+          <h2>Email Me!</h2>
             <EnquiryFormSimpleAjax name='Simple Form Ajax' />
+        </div>
+          <div>
+            <h2>Social Me!</h2>
+            <h3><a href="https://www.linkedin.com/in/jason-somai-40a29252/">LinkedIn</a></h3>
+            <h3><a href="https://www.instagram.com/jasonsomai/">Instagram</a></h3>
+<script src="https://instawidget.net/js/instawidget.js?u=e5efb1c7b2c052f62c461dd7c1c43b1b3f13d234432d95eee2ddfde4bc94a88e&width=300px"></script>
           </div>
+
+
         </div>
       </div>
     </div>

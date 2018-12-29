@@ -1,10 +1,11 @@
 .PostCard {
   text-decoration: none;
-  background: white;
+  background: #fafafa;
   color: inherit;
   transition: all 0.15s ease-in-out;
   overflow: hidden;
   padding:2rem;
+  margin:1rem;
   display:flex;
   flex-direction: column;
   justify-content:space-between;

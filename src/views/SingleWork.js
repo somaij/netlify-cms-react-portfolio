@@ -39,7 +39,7 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
       {!!galleryImages.length &&
               galleryImages.map(obj => (
                 <div key={obj.image} className='GalleryItem'>
-                <a className="ItemImage" href={obj.image}><img src={getImageSrc(obj.image, 300)}/><br/>                </a>
+                <a className="ItemImage" href={obj.image} data-lity data-lity-desc={obj.caption}><img src={getImageSrc(obj.image, 300)}/></a>
                 <div className="ItemCaption">{obj.caption}</div>
                 <a className="Button" href={obj.btnlink}>{obj.btntext}</a>
                 </div>

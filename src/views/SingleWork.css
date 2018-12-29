@@ -54,15 +54,18 @@
 
 .GalleryItem{
   text-align: center;
-  background-color:#FFF;
+  background-color:#fafafa;
   padding:2rem;
   display:flex;
   flex-direction: column;
-  box-shadow:#999 0px 0px 20px;
   width:250px;
   height:300px;
   justify-content: space-between;
   margin:1rem;
+}
+.GalleryItem:hover{
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 .ItemImage img{
   height:100%; 
@@ -75,7 +78,7 @@
 }
 .GalleryItem .Button{}
 .portfolio-gallery{
-  background:#CCC;
+  border-bottom:2px solid #CCC;
   padding:3rem 0;
   margin-bottom:2rem;
   margin-left:-2rem;

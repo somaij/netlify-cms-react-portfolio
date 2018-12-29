@@ -1,8 +1,11 @@
 import React from 'react'
-
+import _sortBy from 'lodash/sortBy'
+import PostTitleSection from '../components/PostTitleSection'
 import './Footer.css'
 
-export default ({ globalSettings, socialSettings, navLinks }) => (
+export default ({ globalSettings, socialSettings, navLinks, posts = [] }) => { 
+  posts = _sortBy(posts, ['date']).reverse()
+  return(
   <footer className='Footer'>
     <div className='container'>
     <div class="left">
@@ -21,8 +24,10 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
       </div>
       <div class="col col2">
       <h3>Recent Posts</h3>
+      {!!posts.length && <PostTitleSection posts={posts} />}
       </div>
     </div>
     </div>
   </footer>
 )
+}
