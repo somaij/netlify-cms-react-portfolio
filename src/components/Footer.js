@@ -1,16 +1,13 @@
 import React from 'react'
-import _sortBy from 'lodash/sortBy'
-import PostTitleSection from '../components/PostTitleSection'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
-export default ({ globalSettings, socialSettings, navLinks, posts = [] }) => { 
-  posts = _sortBy(posts, ['date']).reverse()
-  return(
+export default ({ globalSettings, socialSettings, navLinks}) => (
   <footer className='Footer'>
     <div className='container'>
-    <div class="left">
+    <div className="left">
     <div className='Logo'><strong>Jason</strong> Somai</div>
-    <div class="link-list">
+    <div className="link-list">
     <ul>
       <li><a href="https://github.com/somaij/">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/jason-somai-40a29252/">LinkedIn</a></li>
@@ -18,16 +15,18 @@ export default ({ globalSettings, socialSettings, navLinks, posts = [] }) => {
     </ul>
     </div>
     </div>
-    <div class="right">
-      <div class="col col1">
-      <h3>Portfolio</h3>
+    <div className="right">
+      <div className="cols">
+      <div className="col col1">
+      <Link to='/portfolio/'><h3>Portfolio</h3></Link>
       </div>
-      <div class="col col2">
-      <h3>Recent Posts</h3>
-      {!!posts.length && <PostTitleSection posts={posts} />}
+      <div className="col col2">
+      <Link to='/blog/'><h3>Recent Posts</h3></Link>
       </div>
+      </div>
+      <div className="cols-under"><small><a href="https://github.com/Jinksi/netlify-cms-react-starter">Netlify CMS & React starter project created by Jinksi</a></small></div>
     </div>
+    
     </div>
   </footer>
 )
-}

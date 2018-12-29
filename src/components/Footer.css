@@ -2,6 +2,7 @@
   padding: 3rem 0;
   background: #000;
   color:#CCC;
+  margin: auto auto 0 auto;
 }
 .Footer .container{
   display:flex;
@@ -11,13 +12,15 @@
   font-family:var(--font-heading);
   text-transform: uppercase;
 }
-.Footer .left{
-
+.Footer h3{
+  margin-bottom:0;
 }
 .Footer .right{
   text-align:right;
-  display:flex;
   width:70%;
+}
+.Footer .right .cols{
+  display:flex;
   justify-content: flex-end;
 }
 .Footer .right .col{
@@ -36,6 +39,10 @@
   margin:0 0.6rem;
   content: "|";
 }
-.Footer .link-list a{
+.Footer a{
   color:#CCC;
+}
+.Footer a:hover{
+  color:#FFF;
+  text-decoration:none;
 }

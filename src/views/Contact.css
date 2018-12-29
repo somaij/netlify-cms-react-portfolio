@@ -1,9 +1,20 @@
-.Contact {
+.Contact h3 a{
+  color:#000;
+  text-decoration:none;
+  display:flex;
+  justify-items:center;
+}
+.Contact h3 a:hover{
+  color:var(--primary);
+}
+.Contact h3 a img{
+  margin-right:1.5rem;
 }
 
 .Contact--Details {
   margin-top: 3rem;
 }
+
 
 .Contact--Details--Item {
   display: flex;
