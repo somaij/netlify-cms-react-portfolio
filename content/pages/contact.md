@@ -1,10 +1,15 @@
 ---
 title: Contact
-featuredImage: /images/uploads/mark-chang-74-3.jpg
-subtitle: Get in touch!
+featuredImage: /images/uploads/card-og.png
+subtitle: >-
+  Connect with me with email or LinkedIn! I’m always happy to help in any way
+  possible.
 address: 'Brampton, ON'
 phone: '6472928177'
 email: jsomai458@gmail.com
+meta:
+  description: Get in touch with me! I'm always happy to help out in any way that I can.
+  title: Contact Me
 ---
 
 # Example contact form
