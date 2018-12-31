@@ -9,7 +9,7 @@ import { getImageSrc } from '../util/getImageUrl'
 import './SingleWork.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
-  const { title, date, subtitle, link, problem, solution, galleryImages = [], headerimage, body, categories = [] } = fields
+  const { title, date, subtitle, link, problem, solution, ctaTitle, ctaText, galleryImages = [], headerimage, body, categories = [] } = fields
   return (
     <article className='SinglePost'>
      <div className='SingleWork--Header' style={{backgroundImage: `url(${headerimage})`}}>
@@ -70,6 +70,14 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
             )}
           </div>
     </div>
+    <div className='cta'>
+        <div className='container'>
+          <h2>{ctaTitle}</h2>
+          <p>{ctaText}</p>
+          <a href="/contact" className="Button Button--inverted">CONTACT ME</a>
+        </div>
+      </div>
     </article>
+    
   )
 }
