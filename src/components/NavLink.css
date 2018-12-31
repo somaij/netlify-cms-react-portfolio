@@ -6,13 +6,15 @@
   color: inherit;
   text-decoration: none;
 }
-
+.NavLink:hover{
+	text-shadow: -3px 3px 0 rgba(0, 0, 0, 0.2);
+}
 .NavLink + .NavLink {
   margin-left: 1rem;
 }
 
 .NavLink.active {
-
+	text-shadow: -3px 3px 0 rgba(0, 0, 0, 0.1);
   border-color: var(--primary-light);
 }
 .NavLink:hover,

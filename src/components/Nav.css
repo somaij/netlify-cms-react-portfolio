@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   z-index: 3;
+  font-size:1rem;
 }
 
 .Nav a{
@@ -34,8 +35,13 @@
 .Nav .Logo {
   white-space: nowrap;
 }
+@media screen and (min-width:480px){
+  .Nav{
+    font-size:1.5rem;
+  }
+}
+@media screen and (min-width:320px){
 
-@media screen and (min-width:500px){
   .Nav--Container{
     flex-direction:row;
   }

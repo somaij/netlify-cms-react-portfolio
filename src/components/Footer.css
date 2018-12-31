@@ -46,3 +46,23 @@
   color:#FFF;
   text-decoration:none;
 }
+@media screen and (max-width:850px){
+  .Footer .container{
+    text-align:center;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .Footer .left, .Footer .right{
+    width:100%;
+    text-align:center;
+  }
+  .Footer .right{
+    margin-top:2rem;
+  }
+  .Footer .right .cols{
+    justify-content:center;
+  }
+  .Footer .cols .col{
+    width:auto;
+  }
+}

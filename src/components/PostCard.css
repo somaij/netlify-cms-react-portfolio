@@ -52,10 +52,22 @@
 .PostCard:hover .PostCard--Button{
   background: var(--primary);
   color: white;
-  
   text-decoration: none;
   border: none;
-  
   cursor: pointer;
   box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width:750px){
+  .PostCard{
+    text-align: center;
+    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  .PostCard--Button{
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+  }
 }

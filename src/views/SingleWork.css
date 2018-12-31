@@ -7,6 +7,12 @@
   display: flex;
   align-items: flex-start;
   padding-top:3rem;
+  background-size:cover;
+}
+.SingleWork--Header .top{
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .SingleWork--Title{
     display: flex;
@@ -15,10 +21,10 @@
 }
 .SingleWork--Title .dot-section .dot-header:before{
   background-color:#FFF;
-  top:6rem;
+  top:8.3rem;
 }
 .SingleWork--Title .dot-section:after{
-  height:calc(100% - 6rem);
+  height:calc(100% - 8.2rem);
 }
 .SinglePost--BackButton {
   color: white;
@@ -46,19 +52,12 @@
   padding: 8rem 8rem 4rem 8rem;
 }
 
-@media screen and (max-width: 750px) {
-  .SinglePost--Content {
-    padding: 4rem 2rem;
-  }
-}
-
 .GalleryItem{
   text-align: center;
   background-color:#fafafa;
   padding:2rem;
   display:flex;
   flex-direction: column;
-  width:250px;
   height:300px;
   justify-content: space-between;
   margin:1rem;
@@ -85,9 +84,8 @@
   padding:3rem 0;
   margin-bottom:2rem;
   margin-left:-2rem;
-  display:flex;
-  align-items:stretch;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
 }
 
@@ -98,12 +96,6 @@
 
 .SinglePost--InnerContent {
   padding: 0 8rem;
-}
-
-@media screen and (max-width: 750px) {
-  .SinglePost--InnerContent {
-    padding: 0;
-  }
 }
 
 .SinglePost--Pagination {
@@ -122,4 +114,16 @@
 
 .SinglePost--Pagination--Link.next {
   margin-left: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .SinglePost--Content {
+    padding: 4rem 2rem;
+  }
+  .SinglePost--InnerContent {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:600px){
 }

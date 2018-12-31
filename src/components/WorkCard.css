@@ -1,5 +1,5 @@
 .WorkCard {
-    height: 150px;
+    height: 135px;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -57,9 +57,22 @@
     color:var(--primary);
   }
 
-  @media screen and (min-width:750px){
+  @media screen and (max-width:750px){
     .WorkCard{
-      height: 135px;
+      height: 150px;
       margin-bottom:inherit;
+      box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+  @media screen and (max-width:480px){
+    .WorkCard{
+      flex-direction:column;
+      height:250px;
+    }
+    .WorkCard--Content{
+      padding:3rem 1rem;
+    }
+    .WorkCard--Content, .WorkCard--Image{
+      width:100%;
     }
   }
