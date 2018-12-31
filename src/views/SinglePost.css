@@ -9,6 +9,8 @@
   padding-top:3rem;
   background-color:#000;
   margin-bottom:5rem;
+  background-size:cover;
+  background-position: center;
 }
 .SinglePost--Title{
     display: flex;
