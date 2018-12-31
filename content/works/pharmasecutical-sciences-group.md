@@ -1,5 +1,5 @@
 ---
-title: Pharmasecutical Sciences Group
+title: Pharmaceutical Sciences Group
 link: 'https://psg.ca'
 year: '2017'
 subtitle: >-
