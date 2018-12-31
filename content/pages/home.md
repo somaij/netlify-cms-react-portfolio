@@ -9,7 +9,7 @@ subtitle: |-
   UI Design
 
   Figma/Axure/Adobe XD
-ctaTitle: 'Hit Me Up, Yo'
+ctaTitle: Hit Me Up
 ctaText: >-
   I’m always eager to help in anyway I can with development or user experience
   design. I like to chat about the industry and self development as well.
