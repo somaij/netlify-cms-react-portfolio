@@ -25,3 +25,5 @@ I completed a [Brainstation](https://brainstation.io) course in Dec 2018. I'm no
 I've wanted to make a blog for a while, and I have much to talk about. It's a way for me to learn, and practice my writing. And if I could help people out with what I know that's great too! It's also an on going experiment: I'll be monitoring heat maps to find out what works and what doesn't on this site. Expect some cool posts on that too!
 
 I hope you'll have a great year ahead, person reading this!
+
+[_Photo_](https://burst.shopify.com/photos/the-year-2019?q=New+year)_ by Matthew Henry from Burst._
