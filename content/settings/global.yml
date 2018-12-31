@@ -1,8 +1,8 @@
-siteTitle: Jason Somai's Portfolio
+siteTitle: Jason Somai
 siteUrl: 'https://netlify-cms-react-starter.netlify.com'
 siteDescription: >-
-  A collection of Jason Somai's work and blog posts about front end development
-  and user experiences. 
+  A collection of Jason Somai's work and blog posts about user experience and
+  front-end development.
 socialMediaCard:
   image: /images/uploads/card-og.png
   twitterCreatorAccount: '@jasonsomai'
