@@ -5,7 +5,7 @@ year: '2017'
 subtitle: PSG
 shortdesc: WordPress/PM
 hex: '004171'
-thumbnail: /images/uploads/ng-32703.jpg
+thumbnail: /images/uploads/psg-header.png
 problem: "I refer to this project as the magnum opus of my time spent at napkin marketing. The PSG required a website to do the following:\r\n\n* Have a subscription based membership system\r\n* Allow members to purchase tickets at different prices, depending on the membership level.\r\n* Allow members to watch past video webinars\r\n* Have a members only job board\r\n* Use WordPress"
 galleryImages:
   - btnlink: 'https://v92egm.axshare.com/#g=1&p=home'
