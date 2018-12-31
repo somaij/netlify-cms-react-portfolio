@@ -40,9 +40,9 @@ const Meta = props => {
       {absoluteImageUrl && (
         <meta name='twitter:card' content='summary_large_image' />
       )}
-      {absoluteImageUrl && (
+      {/* {absoluteImageUrl && (
         <meta property='og:image' content={absoluteImageUrl} />
-      )}
+      )} */}
       {twitterSiteAccount && (
         <meta name='twitter:site' content={twitterSiteAccount} />
       )}

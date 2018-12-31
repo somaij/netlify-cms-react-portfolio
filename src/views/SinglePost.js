@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
 import { ChevronLeft } from 'react-feather'
 
@@ -12,6 +13,11 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
   const { title, date, postFeaturedImage, body, categories = [] } = fields
   return (
     <article className='SinglePost'>
+        <Helmet>
+    {postFeaturedImage && (
+        <meta property='og:image' content={postFeaturedImage} />
+      )}
+    </Helmet>
     <div className='SinglePost--Header test' style={{backgroundImage: `url(${postFeaturedImage})`}}>
     <div className='container'>
       <Link className='SinglePost--BackButton' to='/blog/'>

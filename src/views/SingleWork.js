@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
 import { ChevronLeft } from 'react-feather'
 
@@ -9,9 +10,14 @@ import { getImageSrc } from '../util/getImageUrl'
 import './SingleWork.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
-  const { title, date, subtitle, link, problem, solution, ctaTitle, ctaText, galleryImages = [], headerimage, body, categories = [] } = fields
+  const { title, date, subtitle, link, thumbnail, problem, solution, ctaTitle, ctaText, galleryImages = [], headerimage, body, categories = [] } = fields
   return (
     <article className='SinglePost'>
+    <Helmet>
+    {thumbnail && (
+        <meta property='og:image' content={thumbnail} />
+      )}
+    </Helmet>
      <div className='SingleWork--Header' style={{backgroundImage: `url(${headerimage})`}}>
      <div className='container'>
       <div className='top'><Link className='SinglePost--BackButton' to='/portfolio/'>

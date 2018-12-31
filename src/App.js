@@ -69,7 +69,7 @@ class App extends Component {
           <ServiceWorkerNotifications reloadOnUpdate />
           <Helmet
             defaultTitle={siteTitle}
-            titleTemplate={`${siteTitle} | %s`}
+            titleTemplate={`%s | ${siteTitle}`}
           />
           <Meta
             headerScripts={headerScripts}
