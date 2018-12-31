@@ -161,6 +161,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Outer Short Description", name: "shortdesc", widget: "string"}
       - {label: "Color Code", name: "hex", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Header Image", name: "headerimage", widget: "image"}
       - {label: "Problem", name: "problem", widget: "markdown"}
       - label: "Gallery"
         name: "galleryImages"
