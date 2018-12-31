@@ -2,7 +2,7 @@
 title: 'New Year, New Site!'
 status: Published
 date: '2018-12-31'
-postFeaturedImage: /images/uploads/new-year-post.jpg
+postFeaturedImage: /images/uploads/new-year-post-dark.jpg
 excerpt: What is this site running on anyways? And aspirations for 2019.
 categories:
   - category: Updates
