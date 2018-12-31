@@ -2,7 +2,9 @@
 title: Pharmasecutical Sciences Group
 link: 'https://psg.ca'
 year: '2017'
-subtitle: PSG
+subtitle: >-
+  Client of napkinmarketing. Included Project Management and Custom WordPress
+  Development.
 shortdesc: WordPress/PM
 hex: '004171'
 thumbnail: /images/uploads/psg.png
