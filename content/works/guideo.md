@@ -35,8 +35,7 @@ problem: >-
   Surprisingly, users didn't mind walking 20 minutes if they didn't need to take
   another streetcar or bus.
 galleryImages:
-  - btnlink: >-
-      https://docs.google.com/presentation/d/1KPjkYIp0fYH7nr_9wNvH9ghLr2fq919R9YWtwUM6rik/edit?usp=sharing
+  - btnlink: '#slides'
     btntext: View Slides 19-21
     caption: Initial Sketches
     image: /images/uploads/sketches.jpg
@@ -51,7 +50,7 @@ solution: >-
   <iframe
   src="https://docs.google.com/presentation/d/e/2PACX-1vTvCa5MSh0fyD1tQCqV3YM9CzS3OdqIe2KsXeEfSmFtWMNt9OOAx4u-JJH7P-4TWyqlvBOnMfd0ArB-/embed?start=false&loop=false&delayms=3000"
   frameborder="0" width="960" height="569" allowfullscreen="true"
-  mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  mozallowfullscreen="true" webkitallowfullscreen="true" id="slides"></iframe>
 
 
   **Project Deliverables**
