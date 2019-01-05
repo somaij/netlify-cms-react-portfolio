@@ -94,11 +94,11 @@ solution: >-
   user flows. 
 
 
-  1. If you click on the **Work button**, you will follow the _User Navigates to
-  Work _flow. This one demos how the app handles delays and re-routes.
+  1. If you click on the **Work button**, you will follow the **User Navigates
+  to Work flow**. This one demos how the app handles delays and re-routes.
 
-  2. The _User Navigates to David's Tea _task flow can be started by clicking in
-  the **second textbox at the top**, next to the location marker. This flow
+  2. The **User Navigates to David's Tea task flow** can be started by clicking
+  in the **second textbox at the top**, next to the location marker. This flow
   showcases how to modify routes.
 
 
