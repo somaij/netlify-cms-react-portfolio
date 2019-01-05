@@ -68,6 +68,7 @@
     .WorkCard{
       flex-direction:column;
       height:250px;
+      margin-bottom:2rem;
     }
     .WorkCard--Content{
       padding:3rem 1rem;
