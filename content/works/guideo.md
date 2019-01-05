@@ -11,19 +11,29 @@ thumbnail: /images/uploads/toronto-streetcar-downtown_500.jpg
 headerimage: /images/uploads/guideo.png
 problem: >-
   During the 5 weeks at Brainstation, our class was given the assignment to
-  create a transit app. It was left up to us to find a problem, and solve it
-  with the mental and digital tools learned in class. 
+  create a transit app. It was left up to us to find a transit problem, and
+  solve it with the skills and digital tools learned in class. 
 
 
-  A problem I decided to solve was something I saw recurring in my user
-  interviews - when GPS guidance is provided, the user was usually stuck on one
-  route without any flexibility. The users that I had interviewed were prone to
-  walking when it was an option, for economic and health reasons. 
+  I decided to focus on public transit. The common pain points found during user
+  interviews were:
 
 
-  There was also the issue of transit delays. Apparently, delays are not clearly
-  communicated and are sometimes are severe enough to the point of walking being
-  faster.
+  1. It sucked to do transfers due to delays and misinformation.
+
+  2. Navigation apps would only provide a set of immutable routes. Users
+  couldn't change parts of a route, so that they could walk halfway instead of
+  using a streetcar.
+
+  3. Detailed information such as a route being presto only or pricing
+  information wasn't easily found.
+
+  4. Uber was expensive, and Uber Pool didn't prioritize getting users there on
+  time.
+
+
+  Surprisingly, users didn't mind walking 20 minutes if they didn't need to take
+  another streetcar or bus.
 galleryImages:
   - btnlink: >-
       https://docs.google.com/presentation/d/1KPjkYIp0fYH7nr_9wNvH9ghLr2fq919R9YWtwUM6rik/edit?usp=sharing
@@ -60,10 +70,10 @@ solution: >-
   idea or vision. 
 
 
-  I used Waze and Google Maps as the main user interface inspiration. All of the
+  Waze and Google Maps were the main user interface inspiration. All of the
   users I interviewed were very familiar with them, and I wanted to use
   conventional, industry standard guidelines. Every second counts when trying to
-  get somewhere. 
+  get somewhere, so recognition is key.
 
 
   The differentiating factors of Guideo were three things:
@@ -79,6 +89,19 @@ solution: >-
   delay.
 
 
+  The [full
+  wireframe](https://app.moqups.com/JSomai/Aln757niFM/view/page/a10d02abc) has 2
+  user flows. 
+
+
+  1. If you click on the **Work button**, you will follow the _User Navigates to
+  Work _flow. This one demos how the app handles delays and re-routes.
+
+  2. The _User Navigates to David's Tea _task flow can be started by clicking in
+  the **second textbox at the top**, next to the location marker. This flow
+  showcases how to modify routes.
+
+
   I came away from the course with a greater understand of how to produce a
   better user experience. I learned how to throw away my ego when being
   critiqued. How to stay silent and provide not provide answers during user
@@ -86,9 +109,11 @@ solution: >-
   sense.
 
 
-  Industry professionals Gerard Dolan and David Aboutboul taught the class
-  invaluable life and career lessons, and I hope to carry a design thinking
-  approach to everything that I do henceforth.
+  Industry professionals [Gerard
+  Dolan](https://www.linkedin.com/in/gerarddolan/) and [David
+  Aboutboul](https://www.linkedin.com/in/david-aboutboul/) taught our class
+  invaluable life and career lessons. I hope to carry a design thinking approach
+  to everything that I do henceforth.
 ctaTitle: Let's Talk
 ctaText: Want to talk about UX? Great! Get in touch pronto.
 ctabtn: Connect
