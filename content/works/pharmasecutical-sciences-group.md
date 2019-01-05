@@ -1,5 +1,5 @@
 ---
-title: Pharmaceutical Sciences Group
+title: PSG
 link: 'https://psg.ca'
 year: '2017'
 subtitle: >-
@@ -9,7 +9,22 @@ shortdesc: WordPress/PM
 hex: '004171'
 thumbnail: /images/uploads/psg.png
 headerimage: /images/uploads/psg-header.png
-problem: "I refer to this project as the magnum opus of my time spent at napkin marketing. The PSG required a website to do the following:\r\n\n* Have a subscription based membership system\r\n* Allow members to purchase tickets at different prices, depending on the membership level.\r\n* Allow members to watch past video webinars\r\n* Have a members only job board\r\n* Use WordPress"
+problem: >-
+  I refer to this project as the magnum opus of my time spent at napkin
+  marketing. The Pharmaceutical Sciences Group required a website to do the
+  following:
+
+
+  * Have a subscription based membership system
+
+  * Allow members to purchase tickets at different prices, depending on the
+  membership level.
+
+  * Allow members to watch past video webinars
+
+  * Have a members only job board
+
+  * Use WordPress
 galleryImages:
   - btnlink: 'https://v92egm.axshare.com/#g=1&p=home'
     btntext: View Wireframe
