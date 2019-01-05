@@ -68,12 +68,12 @@
     .dot-section.sub1::after{
         top:6rem;
         left:calc(51% - 16rem);
-        height:calc(50% - 12.6rem)
+        height:calc(50% - 12.7rem)
     }
     .dot-section.sub2::after{
         top:calc(70% - 12.2rem);
         left:calc(51% - 16rem);
-        height:calc(50% - 11rem)
+        height:calc(50% - 11.2rem)
     }
     .right{
         margin-top:1rem;
