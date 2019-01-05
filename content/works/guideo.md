@@ -45,11 +45,19 @@ galleryImages:
     caption: Final wireframe made in Moqups
     image: /images/uploads/wireframe.png
 solution: >-
+  **Final Presentation**
+
+
+  <iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vTvCa5MSh0fyD1tQCqV3YM9CzS3OdqIe2KsXeEfSmFtWMNt9OOAx4u-JJH7P-4TWyqlvBOnMfd0ArB-/embed?start=false&loop=false&delayms=3000"
+  frameborder="0" width="960" height="569" allowfullscreen="true"
+  mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
   **Project Deliverables**
 
 
-  All of the following deliverables can be found in the [project's final
-  presentation](https://docs.google.com/presentation/d/1KPjkYIp0fYH7nr_9wNvH9ghLr2fq919R9YWtwUM6rik/edit?usp=sharing).
+  All of the following deliverables can be found in the presentation above.
 
 
   * 4 User Interviews
