@@ -2,6 +2,7 @@
 title: How to do floating labels for CF7
 status: Published
 date: '2019-01-24'
+postFeaturedImage: /images/uploads/mobile-contact-us-form_1600.jpg
 excerpt: >-
   If you have a large Contact Form 7 form, this is a great way to unclutter your
   page.
@@ -137,7 +138,8 @@ $("input, textarea").each(function() {
 Add a little bit of CSS and you're all set:
 
 ```
-.wpcf7 .element-wrapper > label{
+.wpcf7 .element-wrapper > label
+{
 ```
 
 ```
@@ -161,11 +163,12 @@ z-index: 1;
 ```
 
 ```
-}
+}
 ```
 
 ```
-.wpcf7 .element-wrapper > label.move{
+.wpcf7 .element-wrapper > label.move
+{
 ```
 
 ```
@@ -191,3 +194,5 @@ left: 30px;
 Now you'll have some great form UX that will be sure to please the eye!
 
 Need some more help? [Shoot me an email](https://jasonsomai.com/contact/) and I'll help you in anyway possible.
+
+_Photo by _[_Nicole De Khors_](https://burst.shopify.com/@ndekhors?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Mobile+Contact+Us+Form+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit)
