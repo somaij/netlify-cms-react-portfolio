@@ -8,6 +8,9 @@ excerpt: >-
   page.
 categories:
   - category: WordPress
+meta:
+  description: How to use jQuery to make floating labels with the Contact Form 7 plugin.
+  title: Floating Labels CF7
 ---
 Everybody knows why floating labels are great, right? But here's a refresher link from CSS Tricks just in case you don't:
 
