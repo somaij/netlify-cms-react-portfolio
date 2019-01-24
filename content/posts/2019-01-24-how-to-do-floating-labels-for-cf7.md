@@ -107,9 +107,17 @@ Add a little bit of CSS and you're all set:
 
 `}`
 
-```
-.wpcf7 .element-wrapper > label.move { opacity: .4; font-size: 10px; top: 10px; left: 30px; }
-```
+`.wpcf7 .element-wrapper > label.move {`
+
+`opacity: .4;`
+
+`font-size: 10px;`
+
+`top: 10px;`
+
+`left: 30px;`
+
+`}`
 
 Now you'll have some great form UX that will be sure to please the eye!
 
