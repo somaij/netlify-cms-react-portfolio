@@ -2,7 +2,7 @@
 title: How to do floating labels for CF7
 status: Published
 date: '2019-01-24'
-postFeaturedImage: /images/uploads/mobile-contact-us-form_1600.jpg
+postFeaturedImage: /images/uploads/mobile-contact-us-form.jpg
 excerpt: >-
   If you have a large Contact Form 7 form, this is a great way to unclutter your
   page.
