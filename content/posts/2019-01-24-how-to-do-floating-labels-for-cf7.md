@@ -9,7 +9,7 @@ excerpt: >-
 categories:
   - category: WordPress
 ---
-Everybody knows why floating labels are great, right? But here's a refresher link from CSS Tricks:
+Everybody knows why floating labels are great, right? But here's a refresher link from CSS Tricks just in case you don't:
 
 https://css-tricks.com/float-labels-css/
 
@@ -19,23 +19,22 @@ One day, I decided to try out this new shiny floating label thing on Contact For
 
 For example:
 
-`<div class="text-wrapper"><label for="first_name">First Name</label>`
-
-`[text fname id:first_name]`
-
-`</div>`
+```
+<div class="text-wrapper"><label for="first_name">First Name</label>
+[text fname id:first_name]
+</div>
+```
 
 renders as:
 
-`<div class="text-wrapper"><label for="first_name">First Name</label>`
-
-`<span class="wpcf7-form-control-wrap fname">`
-
-`<input type="text" name="fname" value="" size="40" class="wpcf7-form-control wpcf7-text" id="first_name" aria-invalid="false">`
-
-`</span>`
-
-`</div>`
+```
+<div class="text-wrapper"><label for="first_name">First Name</label>
+<span class="wpcf7-form-control-wrap fname">
+<input type="text" name="fname" value="" size="40" 
+class="wpcf7-form-control wpcf7-text" id="first_name" aria-invalid="false">
+</span>
+</div>
+```
 
 "So what? It's just an extra span element" I thought. I could still select it with:
 
@@ -55,72 +54,49 @@ input:focus + label
 
 Using Google-Fu, I came up with an easy solution. Since in jQuery you can do a parent's sibling selection, all I did was apply the class "move" to the label if the input's value is greater than 0, and it updates on input focus.
 
-`jQuery(document).ready(function($) { //no conflict`
+```
+jQuery(document).ready(function($) { //no conflict
+    $("input, textarea").each(function() {
+        if ($(this).val().length != 0) { //In case there is a preloaded value
 
-`$("input, textarea").each(function() {`
+            $(this).parent().siblings("label").addClass("move");
+        } else {
+            $(this).parent().siblings("label").removeClass("move");
+        }
+    });
+    $("input, textarea").focus(function() { //On focus move the label
 
-`        if ($(this).val().length != 0) { //In case there is a preloaded value`
-
-`            $(this).parent().siblings("label").addClass("move");`
-
-`        } else {`
-
-`            $(this).parent().siblings("label").removeClass("move");`
-
-`        }`
-
-`    });`
-
-`    $("input, textarea").focus(function() { //On focus move the label`
-
-`        $(this).parent().siblings("label").addClass("move");`
-
-`    });`
-
-`    $("input, textarea").focusout(function() { `
-
-`//On focusout check if there is any value, else remove the move class.`
-
-`        if ($(this).val().length == 0) {`
-
-`            $(this).parent().siblings("label").removeClass("move");`
-
-`        }`
-
-`    });`
-
-`});`
+        $(this).parent().siblings("label").addClass("move");
+    });
+    $("input, textarea").focusout(function() { 
+//On focusout check if there is any value, else remove the move class.
+        if ($(this).val().length == 0) {
+            $(this).parent().siblings("label").removeClass("move");
+        }
+    });
+});
+```
 
 Add a little bit of CSS and you're all set:
 
-`.wpcf7 .element-wrapper > label {`
-
-`position: absolute;`
-
-`top: 1rem;`
-
-`left: 30px;`
-
-`transition: all .1s ease-in-out;`
-
-`z-index: 1;`
-
-`}`
-
-`.wpcf7 .element-wrapper > label.move {`
-
-`opacity: .4;`
-
-`font-size: 10px;`
-
-`top: 10px;`
-
-`left: 30px;`
-
-`}`
+```
+.wpcf7 .element-wrapper > label {
+position: absolute;
+top: 1rem;
+left: 30px;
+transition: all .1s ease-in-out;
+z-index: 1;
+}
+.wpcf7 .element-wrapper > label.move {
+opacity: .4;
+font-size: 10px;
+top: 10px;
+left: 30px;
+}
+```
 
 Now you'll have some great form UX that will be sure to please the eye!
 
 Need some more help? [Shoot me an email](https://jasonsomai.com/contact/) and I'll help you in anyway possible.
 
-_Photo by _[_Nicole De Khors_](https://burst.shopify.com/@ndekhors?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Mobile+Contact+Us+Form+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit)
+_Photo by _[_Nicole De Khors_](https://burst.shopify.com/@ndekhors?utm_campaign=photo_credit&utm_content=Free+Stock+Photo+of+Mobile+Contact+Us+Form+%E2%80%94+HD+Images&utm_medium=referral&utm_source=credit)
