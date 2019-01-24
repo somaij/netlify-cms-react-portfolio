@@ -19,35 +19,23 @@ One day, I decided to try out this new shiny floating label thing on Contact For
 
 For example:
 
-```
-<div class="text-wrapper"><label for="first_name">First Name</label>[text fname id:first_name]</div>
-```
+`<div class="text-wrapper"><label for="first_name">First Name</label>`
+
+`[text fname id:first_name]`
+
+`</div>`
 
 renders as:
 
-```
-<div class="text-wrapper">
-```
+`<div class="text-wrapper"><label for="first_name">First Name</label>`
 
-```
-<label for="first_name">First Name</label>
-```
+`<span class="wpcf7-form-control-wrap fname">`
 
-```
-<span class="wpcf7-form-control-wrap fname">
-```
+`<input type="text" name="fname" value="" size="40" class="wpcf7-form-control wpcf7-text" id="first_name" aria-invalid="false">`
 
-```
-<input type="text" name="fname" value="" size="40" class="wpcf7-form-control wpcf7-text" id="first_name" aria-invalid="false">
-```
+`</span>`
 
-```
-</span>
-```
-
-```
-</div>
-```
+`</div>`
 
 "So what? It's just an extra span element" I thought. I could still select it with:
 
@@ -65,131 +53,71 @@ input:focus + label
 
 ## jQuery to the rescue!
 
-Using Google-Fu, I came up with an easy solution. Since in JQuery you can do a parent's sibling selection, all I did was apply the class "move" to the label if the input's value is greater than 0, and it updates on input focus.
+Using Google-Fu, I came up with an easy solution. Since in jQuery you can do a parent's sibling selection, all I did was apply the class "move" to the label if the input's value is greater than 0, and it updates on input focus.
 
-```
-jQuery(document).ready(function($) { //no conflict
-```
+`jQuery(document).ready(function($) { //no conflict`
 
-```
-$("input, textarea").each(function() {
-```
+`$("input, textarea").each(function() {`
 
-```
-        if ($(this).val().length != 0) { //In case there is a preloaded value
-```
+`        if ($(this).val().length != 0) { //In case there is a preloaded value`
 
-```
-            $(this).parent().siblings("label").addClass("move");
-```
+`            $(this).parent().siblings("label").addClass("move");`
 
-```
-        } else {
-```
+`        } else {`
 
-```
-            $(this).parent().siblings("label").removeClass("move");
-```
+`            $(this).parent().siblings("label").removeClass("move");`
 
-```
-        }
-```
+`        }`
 
-```
-    });
-```
+`    });`
 
-```
-    $("input, textarea").focus(function() { //On focus move the label
-```
+`    $("input, textarea").focus(function() { //On focus move the label`
 
-```
-        $(this).parent().siblings("label").addClass("move");
-```
+`        $(this).parent().siblings("label").addClass("move");`
 
-```
-    });
-```
+`    });`
 
-```
-    $("input, textarea").focusout(function() { //On focusout check if there is any value, else remove the move class.
-```
+`    $("input, textarea").focusout(function() { `
 
-```
-        if ($(this).val().length == 0) {
-```
+`//On focusout check if there is any value, else remove the move class.`
 
-```
-            $(this).parent().siblings("label").removeClass("move");
-```
+`        if ($(this).val().length == 0) {`
 
-```
-        }
-```
+`            $(this).parent().siblings("label").removeClass("move");`
 
-```
-    });
-```
+`        }`
 
-```
-});
-```
+`    });`
+
+`});`
 
 Add a little bit of CSS and you're all set:
 
-```
-.wpcf7 .element-wrapper > label
-{
-```
+`.wpcf7 .element-wrapper > label {`
 
-```
-position: absolute;
-```
+`position: absolute;`
 
-```
-top: 1rem;
-```
+`top: 1rem;`
 
-```
-left: 30px;
-```
+`left: 30px;`
 
-```
-transition: all .1s ease-in-out;
-```
+`transition: all .1s ease-in-out;`
 
-```
-z-index: 1;
-```
+`z-index: 1;`
 
-```
-}
-```
+`}`
 
-```
-.wpcf7 .element-wrapper > label.move
-{
-```
+`.wpcf7 .element-wrapper > label.move {`
 
-```
-opacity: .4;
-```
+`opacity: .4;`
 
-```
-font-size: 10px;
-```
+`font-size: 10px;`
 
-```
-top: 10px;
-```
+`top: 10px;`
 
-```
-left: 30px;
-```
+`left: 30px;`
 
-```
-}
-```
+`}`
 
 Now you'll have some great form UX that will be sure to please the eye!
 
