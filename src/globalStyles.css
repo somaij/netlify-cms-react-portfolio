@@ -78,6 +78,8 @@ pre {
   font-size: 85%;
   border-radius: 3px;
   padding: 16px;
+  white-space: pre-wrap;
+    word-break: break-all;
 }
 
 code {

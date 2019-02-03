@@ -1,13 +1,32 @@
+#header {
+    width:100%;
+    overflow:hidden;
+    position:relative;
+  }
+  #header canvas{
+    position:absolute;
+    left: 0;
+    top:0;
+    opacity:0.60;
+    -webkit-animation: slide 120s linear infinite;
+  }
+  @-webkit-keyframes slide {
+      0% { left: 0;}
+    50%{left:-90%;}
+    100%{ left : 0;}
+  }
 .masthead{
-    background-color:#000;
+    background-color:var(--primary);
     color:#FFF;
     padding:1rem 0;
 }
+
 .masthead h1{
     font-size:5rem;
 }
 .masthead .container{
     height:100%;
+    z-index:1;
 }
 .masthead .content{
     display:flex;
