@@ -5,7 +5,6 @@
 }
 @-moz-keyframes AnimationName {
     0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
 @keyframes AnimationName { 
@@ -16,17 +15,20 @@
 
 
 .masthead{
-    background: linear-gradient(270deg, #226ce0, #664cf5);
-background-size: 400% 400%;
+    background: linear-gradient(270deg, #226ce0, #10213D);
+background-size: 150% 150%;
 
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
-    
+-webkit-animation: AnimationName 3s ease;
+-moz-animation: AnimationName 3s ease;
+animation: AnimationName 3s ease;
+    animation-iteration-count: 1;
     color:#FFF;
     padding:1rem 0;
-}
 
+}
+.masthead .BackgroundImage{
+    filter:saturate(0);
+} 
 .masthead h1{
     font-size:5rem;
 }

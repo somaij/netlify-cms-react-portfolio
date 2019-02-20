@@ -15,7 +15,7 @@ export default ({ fields, posts = [], postCategories = [], works = [] }) => {
     <main className='Home'>
     <div className="masthead relative" id="header">
     {featuredImage && (
-        <BackgroundImage src={featuredImage} opacity={0.4} />
+        <BackgroundImage src={featuredImage} opacity={0.3} />
       )}
     <div className="container">
     <div className="content">
