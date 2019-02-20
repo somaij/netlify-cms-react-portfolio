@@ -19,24 +19,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="/vendor/lity/lity.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/vendor/lity/lity.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
-    <script>
-      
-        var pattern = Trianglify({
-            width: window.innerWidth * 2,
-            height: 800,
-            cell_size: 200,
-          variance: 1,
-          x_colors: 'Greys',
-          y_colors: 'random',
-          stroke_width: 0,
-          seed: null
-        
-          });
-          $(document).ready(function(){
-        $("#header").append(pattern.canvas());
-      });
-            </script>
   </head>
   <body>
     <div id="root"></div>
