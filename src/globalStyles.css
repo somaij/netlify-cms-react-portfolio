@@ -225,6 +225,13 @@ blockquote {
 .cta h2{
   font-size:3rem;
 }
+@keyframes fadeinopacity {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.WorkCard, .PostCard, .EnquiryForm, .social-link, .skinny, .SingleWork--Header{
+animation: fadeinopacity 1s;
+}
 @keyframes dot-shadow{
   
   0%{ box-shadow: 0 0 0 #226ce0; }
