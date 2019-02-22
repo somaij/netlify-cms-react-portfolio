@@ -54,6 +54,11 @@ animation: AnimationName 3s ease;
     animation: dot-shadow-white 2s ease;
     animation-delay:2s;
 }
+.masthead .dot-section:after{
+    opacity:0;  /* make things invisible upon start */
+    animation: fadeIn 2s ease;
+    animation-fill-mode: forwards;
+}
 @media screen and (min-width:768px){
     .masthead{
         height:400px;

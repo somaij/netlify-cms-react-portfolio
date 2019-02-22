@@ -252,9 +252,6 @@ blockquote {
   width: 2px;
   left: 0;
   bottom:0;
-  opacity:0;  /* make things invisible upon start */
-  animation: fadeIn 2s ease;
-  animation-fill-mode: forwards;
 }
 .dot-header::before{
   z-index: 2;
@@ -267,8 +264,17 @@ blockquote {
   height: 1.8rem;
   border-radius: 2rem;
   background-color: var(--primary);
+
+}
+.Blog .dot-section:after, .Portfolio .dot-section:after, .Contact .dot-section:after{
+
+  opacity:0;  /* make things invisible upon start */
+  animation: fadeIn 2s ease;
+  animation-fill-mode: forwards;
+}
+.Blog .dot-section .dot-header:before, .Portfolio .dot-section .dot-header:before, .Contact .dot-section .dot-header:before{
   animation: dot-shadow 2s ease;
-    animation-delay:2s;
+  animation-delay:2s;
 }
 .post-section{
   display: flex;

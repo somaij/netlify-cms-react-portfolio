@@ -25,6 +25,9 @@
 }
 .SinglePost--Title .dot-section:after{
   height:calc(100% - 6rem);
+  opacity:0;  /* make things invisible upon start */
+  animation: fadeIn 2s ease;
+  animation-fill-mode: forwards;
 }
 
 .SinglePost--BackButton {
