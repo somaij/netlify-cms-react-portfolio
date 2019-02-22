@@ -56,7 +56,7 @@ animation: AnimationName 3s ease;
 }
 @media screen and (min-width:768px){
     .masthead{
-        height:300px;
+        height:400px;
     }
     .masthead .content, .roles{
         flex-direction: row;
@@ -72,14 +72,14 @@ animation: AnimationName 3s ease;
         width:300px;
     }
     .dot-section.sub1 .dot-header::before, .dot-section.sub2 .dot-header::before{
-        top:5.5rem;
+        top:10.5rem;
     }
     .dot-section.sub2 .dot-header::before{
         left:202px;
     }
     .dot-section.sub1::after, .dot-section.sub2::after{
-        height:calc(100% - 6rem);
-        bottom:0.5rem;
+        height:calc(100% - 17rem);
+        bottom:5.5rem;
     }
     .dot-section.sub2::after{
         left:210px;
