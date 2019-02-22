@@ -13,7 +13,7 @@
   
   .WorkCard:hover,
   .WorkCard:focus {
-    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
     z-index: 1;
     color:#FFF;
     background-color:#000 !important;
@@ -61,7 +61,7 @@
     .WorkCard{
       height: 150px;
       margin-bottom:inherit;
-      box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
     }
   }
   @media screen and (max-width:480px){

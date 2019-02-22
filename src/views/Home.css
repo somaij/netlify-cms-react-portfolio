@@ -51,6 +51,8 @@ animation: AnimationName 3s ease;
 }
 .dot-section.sub1 .dot-header::before, .dot-section.sub2 .dot-header::before{
     background-color:#FFF;
+    animation: dot-shadow-white 2s ease;
+    animation-delay:2s;
 }
 @media screen and (min-width:768px){
     .masthead{

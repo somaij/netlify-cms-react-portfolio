@@ -21,6 +21,8 @@
 }
 .SingleWork--Title .dot-section .dot-header:before{
   background-color:#FFF;
+  animation: dot-shadow-white 2s ease;
+    animation-delay:2s;
   top:8.3rem;
 }
 .SingleWork--Title .dot-section:after{
@@ -63,7 +65,7 @@
   margin:1rem;
 }
 .GalleryItem:hover{
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
   transition: all 0.2s ease;
 }
 .ItemImage{

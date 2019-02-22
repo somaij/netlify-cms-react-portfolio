@@ -19,6 +19,8 @@
 }
 .SinglePost--Title .dot-section .dot-header:before{
   background-color:#FFF;
+  animation: dot-shadow-white 2s ease;
+  animation-delay:2s;
   top:6rem;
 }
 .SinglePost--Title .dot-section:after{
