@@ -1,7 +1,7 @@
 ---
 title: Updates
 meta:
-  description: Desc
-  title: Test Updates Title
+  description: 'What''s been happening in my life. Hint: Probably nothin'' interesting.'
+  title: Personal Updates
 ---
 
