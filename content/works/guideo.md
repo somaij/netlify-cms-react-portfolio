@@ -6,7 +6,7 @@ subtitle: >-
   An inconvenient commute. This was my 5 week project for the User Experience
   course at Brainstation. 
 shortdesc: Brainstation
-hex: 5DD39E
+hex: 4DAD82
 thumbnail: /images/uploads/toronto-streetcar-downtown_500.jpg
 headerimage: /images/uploads/guideo.png
 problem: >-
