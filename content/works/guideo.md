@@ -10,9 +10,11 @@ hex: 4DAD82
 thumbnail: /images/uploads/toronto-streetcar-downtown_500.jpg
 headerimage: /images/uploads/guideo.png
 problem: >-
-  During the 5 weeks at Brainstation, our class was given the assignment to
-  create a transit app. It was left up to us to find a transit problem, and
-  solve it with the skills and digital tools learned in class. 
+  [During my 5 weeks at
+  Brainstation](https://brainstation.io/course/toronto/user-experience-design),
+  our class was given the assignment to create a transit app. It was left up to
+  us to find a transit problem, and solve it with the skills and digital tools
+  learned in class. 
 
 
   I decided to focus on public transit. The common pain points found during user
