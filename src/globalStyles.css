@@ -231,6 +231,7 @@ blockquote {
 }
 .WorkCard, .PostCard, .EnquiryForm, .social-link, .skinny, .SingleWork--Header{
 animation: fadeinopacity 1s;
+will-change: opacity;
 }
 @keyframes dot-shadow{
   
