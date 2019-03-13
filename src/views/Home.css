@@ -24,9 +24,16 @@ animation: AnimationName 3s ease;
     animation-iteration-count: 1;
     color:#FFF;
     padding:1rem 0;
-
+    will-change: background-position;
 }
+@keyframes fadeinmast {
+    from { opacity: 0; }
+    to   { opacity: 0.3; }
+  }
 .masthead .BackgroundImage{
+    opacity:0;
+    animation: fadeinmast 3s;
+    will-change: opacity;
     filter:saturate(0);
 } 
 .masthead h1{

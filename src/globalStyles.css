@@ -278,9 +278,11 @@ animation: fadeinopacity 1s;
   opacity:0;  /* make things invisible upon start */
   animation: fadeIn 2s ease;
   animation-fill-mode: forwards;
+  will-change: height;
 }
 .Blog .dot-section .dot-header:before, .Portfolio .dot-section .dot-header:before, .Contact .dot-section .dot-header:before{
   animation: dot-shadow 2s ease;
+  will-change: box-shadow;
   animation-delay:2s;
 }
 .post-section{
