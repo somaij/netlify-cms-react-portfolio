@@ -65,6 +65,8 @@ animation: AnimationName 3s ease;
     opacity:0;  /* make things invisible upon start */
     animation: fadeIn 2s ease;
     animation-fill-mode: forwards;
+    will-change: height;
+    will-change: opacity;
 }
 @media screen and (min-width:768px){
     .masthead{
