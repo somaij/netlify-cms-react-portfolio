@@ -1,6 +1,6 @@
 ---
 title: Easiest (free) WP Theme for a Resume Site
-status: Draft
+status: Published
 date: '2019-03-21'
 postFeaturedImage: /images/uploads/laptop-from-side.jpg
 excerpt: 'Even if you''re not in the tech world, you should still have a website.'
