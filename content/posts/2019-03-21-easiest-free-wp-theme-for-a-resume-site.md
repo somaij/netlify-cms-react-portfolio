@@ -12,7 +12,7 @@ meta:
 ---
 ## Why Do I Need a Website?
 
-It astounds me - the number of tech people that I've met and they don't have a website. When I was in college doing Systems' Analyst and even later when I was in university doing **IT**, a majority of my peers didn't have a website to show who they really were to potential employers. I'm proud to admit I managed to convince a couple of techy and design pals to create their own online presence. 
+It astounds me - the number of tech people that I've met and they don't have a website. When I was in college doing Systems Analyst and even later when I was in university doing **IT**, a majority of my peers didn't have a website to show who they really were to potential employers. I'm proud to admit I managed to convince a couple of techy and design pals to create their own online presence. 
 
 But what about non-tech people? [Here's a 2013 Forbes article on why everyone needs a website](https://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/#3bcb0dea119e). 
 
