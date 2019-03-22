@@ -12,21 +12,21 @@ meta:
 ---
 ## Why Do I Need a Website?
 
-It astounds me - the number of tech people that I've met and they don't have a website. When I was in college doing Systems Analyst and even later when I was in university doing **IT**, a majority of my peers didn't have a website to show who they really were to potential employers. I'm proud to admit I managed to convince a couple of techy and design pals to create their own online presence. 
+The number of tech people that I've met that "don't need a website" astounds me. Whilst taking Systems Analyst in college and **IT **in university, the majority of my peers didn't have a website to sell their skills to potential employers. I'm glad to say at least some of them listened and created their own online presence. 
 
-But what about non-tech people? [Here's a 2013 Forbes article on why everyone needs a website](https://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/#3bcb0dea119e). 
+But what about non-tech people? [Here's a 2013 Forbes article on why everyone needs a website](https://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/#3bcb0dea119e). Controlling your first impression online is paramount to creating a professional image of yourself.
 
-Okay, I'll stop preaching and assume you're on board by now. 
+Okay, I'll stop preaching and assume you're on board by now.
 
 ## The Theme
 
-Your first instinct is probably to gravitate to this thing you've heard about - **WordPress**. It's a great, easy to use platform. Originally made for blogging, but you can keep it super simple. If you're on a free hosting plan like x10hosting, you're probably not going to get any theme pack-ins with your WordPress install. 
+Your first instinct is probably to gravitate to this thing you've heard about - **WordPress**. The platform was originally made for blogging, but a lot of organizations use it as a content management system because of how easy it is to use. The best part is the vast amount of customization because of themes and plugins. A lot of these are free, but a lot are not. If you're on a free hosting plan like x10hosting, you're probably not going to get any free theme pack-ins with your WordPress install. 
 
-For the past couple of weeks I've been searching for a free theme to set up my cousin's website. I didn't want to put in a lot of work (he had a whopping budget of $0!), but the free stuff I came across were pretty outdated. Until I came across Colorlib's theme - [**Shapely**](https://colorlib.com/wp/themes/shapely/). I was in love with the shape of it. 
+For the past couple of weeks I've been searching for a free theme to set up my cousin's website. I didn't want to put in a lot of work (he had a whopping budget of $0!), but the free themes I came across were frankly, ugly. Until I came across Colorlib's theme - [**Shapely**](https://colorlib.com/wp/themes/shapely/). I was in love with the shape of it. 
 
-It has a simple set up wizard that guides you through installing it's required plugins. I'm not a fan of page builders, but this one was bearable because it uses built in WordPress features to get the job done, decreasing the bloat. The [demo](https://colorlib.com/shapely/) is a good showcase of it's capabilities. Personally, I just used the parallax banner with a free stock image, and the contact form 7 widget. 
+It has a simple set up wizard that guides you through installing it's required plugins. I'm not a fan of page builders, but this one was bearable because it uses built in WordPress features to get the job done, decreasing the bloat. Their [demo](https://colorlib.com/shapely/) is a good showcase of it's capabilities. Personally I only used the parallax banner with a free stock image, and the contact form 7 widget. 
 
-For his resume, I used a Word to HTML online converter, and pasted it into a regular page. You can also just use the regular editor and paste it in straight from Word - I just wanted to refine the design a bit.
+For my cousin's resume page, I used a Word to HTML online converter, and pasted it in. You can also just use the regular editor and paste it in straight from Word - I just wanted to refine the design a bit.
 
 After that, I just simply linked the resume page in the menu. There's also a feature to create a social media menu that automatically creates icons for you in the footer. [Here's a link to the very helpful documentation](https://colorlib.com/wp/support/shapely/). 
 
