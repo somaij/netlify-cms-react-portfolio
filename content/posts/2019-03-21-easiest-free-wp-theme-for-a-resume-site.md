@@ -24,8 +24,7 @@ Your first instinct is probably to gravitate to this thing you've heard about - 
 
 For the past couple of weeks I've been searching for a free theme to set up my cousin's website. I didn't want to put in a lot of work (he had a whopping budget of $0!), but the free themes I came across were frankly, ugly. Until I came across Colorlib's theme - [**Shapely**](https://colorlib.com/wp/themes/shapely/). I was in love with the shape of it. 
 
-<a href="https://jasonsomai.com/images/uploads/Capture.jpg" data-lity="true">![](/images/uploads/resized/capture.300.jpg)
-</a>
+![Chris's Homepage](/images/uploads/capture.jpg)
 
 It has a simple set up wizard that guides you through installing it's required plugins. I'm not a fan of page builders, but this one was bearable because it uses built in WordPress features to get the job done, decreasing the bloat. Their [demo](https://colorlib.com/shapely/) is a good showcase of it's capabilities. Personally I only used the parallax banner with a free stock image, and the contact form 7 widget. 
 
