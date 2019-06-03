@@ -44,6 +44,13 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
     <div className="dot-section">
       <h2 className="dot-header">Solution</h2>
       <div className="portfolio-gallery">
+      {/* <div id="lightgallery">
+      {!!galleryImages.length &&
+              galleryImages.map(obj => (
+
+                <a href={obj.image} ><img src={getImageSrc(obj.image, 300)}/></a>
+              ))}
+        </div> */}
       {!!galleryImages.length &&
               galleryImages.map(obj => (
                 <div key={obj.image} className='GalleryItem'>

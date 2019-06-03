@@ -14,11 +14,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Netlify CMS + React Starter</title>
+    <title>Jason Somai's Portfolio</title>
     <meta id='headerScripts'>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="/vendor/lity/lity.min.js"></script>
+    <script src="/vendor/lightbox/js/lightgallery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/vendor/lity/lity.min.css">
+    <link rel="stylesheet" type="text/css" href="/vendor/lightbox/css/lightgallery.min.css">
+    
   </head>
   <body>
     <div id="root"></div>
@@ -32,6 +35,7 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
+    <script>lightGallery(document.getElementById('lightgallery'));</script>
     <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
     // check for netlifyIdentity, redirect to admin if user is logging in
