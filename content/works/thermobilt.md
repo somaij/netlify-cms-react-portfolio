@@ -9,13 +9,13 @@ thumbnail: /images/uploads/cozy-livingroom-with-window-low.jpg
 headerimage: /images/uploads/cozy-livingroom-with-window-high.jpg
 problem: "This was the first project I had full reign over the website structure, via a sitemap. The homepage, mobile version and landing page were also wireframed for the first time in my new role as Web Developer & UX Specialist. \r\n\nThe main focus of the redesign was to bring the design up to date, create SEO friendly pages that Google could crawl better, and making landing pages that convert for PPC campaigns."
 galleryImages:
-  - btnlink: View Sitemap
-    btntext: 'https://drive.google.com/file/d/1xiDBVI_FSyRow4m9JYX-2TSI4ejAmuRo/view'
+  - btnlink: 'https://drive.google.com/file/d/1xiDBVI_FSyRow4m9JYX-2TSI4ejAmuRo/view'
+    btntext: View Sitemap
     caption: The sitemap I created.
     image: /images/uploads/tb-sitemap.jpg
-  - btnlink: See Desktop
-    btntext: >-
+  - btnlink: >-
       https://www.figma.com/proto/WgNzIR30S1rRJMMZ1oeE3IgE/ThermoBilt-Wireframe?node-id=1%3A2133&scaling=min-zoom&redirected=1
+    btntext: See Desktop
     caption: The desktop wireframe.
     image: /images/uploads/wireframe1-tb.jpg
   - btnlink: >-
