@@ -4,7 +4,7 @@ link: 'https://thermobilt.ca/'
 year: '2019'
 subtitle: 'Windows & Doors Co. Sitemap, Wireframe and Front-end Development'
 shortdesc: UX & Dev
-hex: '#ed1c24'
+hex: ed1c24
 thumbnail: /images/uploads/cozy-livingroom-with-window-low.jpg
 headerimage: /images/uploads/cozy-livingroom-with-window-high.jpg
 problem: "This was the first project I had full reign over the website structure, via a sitemap. The homepage, mobile version and landing page were also wireframed for the first time in my new role as Web Developer & UX Specialist. \r\n\nThe main focus of the redesign was to bring the design up to date, create SEO friendly pages that Google could crawl better, and making landing pages that convert for PPC campaigns."
