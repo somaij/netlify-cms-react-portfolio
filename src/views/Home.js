@@ -44,14 +44,14 @@ Email Marketing<br/>
     </div>
     </div>
     </div>
-      <div className='container'>
+      <div className='container work-home'>
         <div className="dot-section">
         <h2 className="dot-header">Work</h2>
         {!!works.length && <WorkSection works={works} />}
         </div>
       </div>
 
-      <div className='container'>
+      <div className='container blog-home'>
         <div className="dot-section">
         <h2 className="dot-header">Blog</h2>
         {!!posts.length && <PostSection posts={posts} />}

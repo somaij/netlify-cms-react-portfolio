@@ -98,8 +98,14 @@ animation: AnimationName 3s ease;
     .dot-section.sub2::after{
         left:210px;
     }
+    .work-home, .blog-home{
+        margin:7rem auto;
+    }
 }
 @media screen and (max-width:767px){
+    .masthead{
+        padding:2rem 0 6rem;
+    }
     .dot-section.sub1 .dot-header::before{
         top:5.5rem;
         left:calc(49.5% - 16rem);
