@@ -171,10 +171,17 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Caption, name: caption, widget: string}
           - {label: Button Link, name: btnlink, widget: string}
           - {label: Button Text, name: btntext, widget: string}
+      - label: "Work Content"
+        name: "workContent"
+        widget: "list"
+        fields: 
+          - {label: Section Title, name: sectionTitle, widget: string}
+          - {label: Section Text, name: sectionText, widget: 'markdown'}    
       - {label: "Solution", name: "solution", widget: "markdown"}
       - {label: CTA Title, name: ctaTitle, widget: string}
       - {label: CTA Text, name: ctaText, widget: text}
       - {label: CTA Button Text, name: ctabtn, widget: text}
+
 
   - name: postCategories
     label: Post Category

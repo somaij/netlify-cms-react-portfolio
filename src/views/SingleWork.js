@@ -31,8 +31,26 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
         {subtitle}
         </div>
         </div>
+        
         </div>
         
+    </div>
+    <div className="gallery-wrap">
+    <div className="container">
+    <div className="dot-section">
+        <div className="dot-header"><h2>At a Glance</h2></div>
+        <div className="portfolio-gallery">
+      {!!galleryImages.length &&
+              galleryImages.map(obj => (
+                <div key={obj.image} className='GalleryItem'>
+                <a className="ItemImage" href={obj.image} data-lity data-lity-desc={obj.caption}><img src={getImageSrc(obj.image, 300)}/></a>
+                <div className="ItemCaption">{obj.caption}</div>
+                <a href={obj.btnlink}>{obj.btntext}</a>
+                </div>
+              ))}
+      </div>
+        </div>
+    </div>
     </div>
     <div className="container skinny">
     <div className="dot-section">
@@ -42,24 +60,7 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
     </div>
     <div className="container skinny">
     <div className="dot-section">
-      <h2 className="dot-header">Solution</h2>
-      <div className="portfolio-gallery">
-      {/* <div id="lightgallery">
-      {!!galleryImages.length &&
-              galleryImages.map(obj => (
-
-                <a href={obj.image} ><img src={getImageSrc(obj.image, 300)}/></a>
-              ))}
-        </div> */}
-      {!!galleryImages.length &&
-              galleryImages.map(obj => (
-                <div key={obj.image} className='GalleryItem'>
-                <a className="ItemImage" href={obj.image} data-lity data-lity-desc={obj.caption}><img src={getImageSrc(obj.image, 300)}/></a>
-                <div className="ItemCaption">{obj.caption}</div>
-                <a className="Button" href={obj.btnlink}>{obj.btntext}</a>
-                </div>
-              ))}
-      </div>
+      <h2 className="dot-header">End Result</h2>
       <Content source={solution}/>
     </div>   
     </div>

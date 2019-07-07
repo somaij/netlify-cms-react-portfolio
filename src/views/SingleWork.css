@@ -2,11 +2,11 @@
 }
 
 .SingleWork--Header {
-  height: 300px;
+  height: 350px;
   color: white;
   display: flex;
-  align-items: flex-start;
-  padding-top:3rem;
+  align-items: center;
+  justify-content: flex-start;
   background-size:cover;
   background-color:#000;
 }
@@ -60,39 +60,68 @@
 
 .GalleryItem{
   text-align: center;
-  background-color:#fafafa;
+  background-color:#fff;
   padding:2rem;
   display:flex;
   flex-direction: column;
   height:300px;
   justify-content: space-between;
   margin:1rem;
+  color:#333;
 }
-.GalleryItem:hover{
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
-  transition: all 0.2s ease;
-}
+
 .ItemImage{
   overflow:hidden;
 }
 .ItemImage img{
   height:100%; 
   max-height:120px;
+  max-width:90%;
   width:auto;
+  opacity:0.75;
+  position: relative;
+  transition: 250ms all ease-in-out;
+}
+.ItemImage img::before{
+  content:'+';
+  font-size:2rem;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.GalleryItem:hover .ItemImage img{
+  opacity:1;
+}
+.ItemImage img:hover{
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
 }
 .GalleryItem .ItemCaption{
-  color:var(--primary);
   font-size:1.4rem;
 }
-.GalleryItem .Button{}
+.GalleryItem a{
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:1.4rem;
+  transition: 250ms all ease-in-out;
+}
+.GalleryItem a:hover{
+  color:#000;
+}
 .portfolio-gallery{
-  border-bottom:2px solid #CCC;
-  padding:3rem 0;
-  margin-bottom:2rem;
-  margin-left:-2rem;
+  
+  margin:0 auto;
   display: grid;
+  align-items: center;
+  width:100%;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-
+}
+.gallery-wrap{
+  padding:4rem 0 7rem;
+  background-color:#fafafa;
 }
 
 .SinglePost--Title {
