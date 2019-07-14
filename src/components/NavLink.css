@@ -16,10 +16,11 @@
 .NavLink.active {
 	text-shadow: -3px 3px 0 rgba(0, 0, 0, 0.1);
   border-color: var(--primary-light);
+  color:var(--primary);
 }
 .NavLink:hover,
 .NavLink:focus {
-  color: white;
+	color:var(--primary);
 
 }
 /* Trinculo */

@@ -1,5 +1,5 @@
 .Nav {
-  background: var(--primary);
+  background:rgba(255,255,255,0.95);
   position: sticky;
   top: 0;
   z-index: 3;
@@ -7,7 +7,7 @@
 }
 
 .Nav a{
-  color:var(--lightGrey);
+  color:#000;
   font-weight:700;
   font-family: var(--font-heading);
   text-transform: uppercase;
@@ -34,6 +34,7 @@
 
 .Nav .Logo {
   white-space: nowrap;
+  color:var(--primary);
 }
 @media screen and (min-width:480px){
   .Nav{
