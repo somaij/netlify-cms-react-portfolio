@@ -27,6 +27,9 @@ galleryImages:
     btntext: View Site
     caption: Final Site. Take a look around!
     image: /images/uploads/thermobilt.jpg
+workContent:
+  - sectionText: test
+    sectionTitle: Test
 solution: >-
   I first started with the sitemap, to lay a groundwork of pages for our team.
   The sitemap wasn't complex in the first place, so it didn't change
