@@ -13,9 +13,9 @@
 
 .PostCard:hover,
 .PostCard:focus {
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
-  z-index:1;
-  background-color:#EEE;
+  box-shadow: -4px 4px 0 rgba(0, 0, 0, 0.4);
+  z-index:1; 
+  transform: translate(4px, -4px);
 }
 .PostCard:hover .PostCard--Title{
   color: var(--primary);
@@ -56,12 +56,12 @@
   text-decoration: none;
   border: none;
   cursor: pointer;
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: -4px 4px 0 rgba(0, 0, 0, 0.4);
 }
 @media screen and (max-width:750px){
   .PostCard{
     text-align: center;
-    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: -4px 4px 0 rgba(0, 0, 0, 0.3);
     margin-bottom:3rem;
   }
   .PostCard--Button{
@@ -70,6 +70,6 @@
     text-decoration: none;
     border: none;
     cursor: pointer;
-    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: -4px 4px 0 rgba(0, 0, 0, 0.3);
   }
 }

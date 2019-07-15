@@ -95,7 +95,7 @@
   opacity:1;
 }
 .ItemImage img:hover{
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: -4px 4px 0 rgba(0, 0, 0, 0.4);
   transition: all 0.2s ease;
 }
 .GalleryItem .ItemCaption{

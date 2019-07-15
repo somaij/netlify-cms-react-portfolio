@@ -10,7 +10,7 @@ import { getImageSrc } from '../util/getImageUrl'
 import './SingleWork.css'
 
 export default ({ fields, nextPostURL, prevPostURL }) => {
-  const { title, date, subtitle, link, thumbnail, problem, solution, ctaTitle, ctaText, galleryImages = [], headerimage, body, categories = [] } = fields
+  const { title, date, subtitle, link, thumbnail, problem, solution, ctaTitle, ctaText, galleryImages = [], headerimage, body, categories = [], workContent = [] } = fields
   return (
     <article className='SinglePost'>
     <Helmet>
@@ -58,6 +58,16 @@ export default ({ fields, nextPostURL, prevPostURL }) => {
       <Content source={problem}/>
     </div>   
     </div>
+    {!!workContent.length &&
+              workContent.map(obj => (
+                <div className="container skinny">
+    <div className="dot-section">
+      <h2 className="dot-header">{obj.sectionTitle}</h2>
+      <Content source={obj.sectionText}/>
+    </div>   
+    </div>
+              ))}
+    
     <div className="container skinny">
     <div className="dot-section">
       <h2 className="dot-header">End Result</h2>
