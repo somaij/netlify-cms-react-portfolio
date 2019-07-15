@@ -1,5 +1,6 @@
 ---
 title: UX + Developer
+bgPattern: /images/uploads/email-pattern.png
 featuredImage: /images/uploads/2.png
 subtitle: |-
   System Analysis
