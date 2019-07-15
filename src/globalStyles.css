@@ -50,6 +50,10 @@ body {
 
 a {
   color: var(--primary);
+  transition:all 250ms ease;
+}
+a:hover{
+  color: var(--primary-dark);
 }
 
 strong {
@@ -197,6 +201,7 @@ blockquote {
 .Button:hover,
 .Button:focus {
   background: var(--primary-dark);
+  color: white;
   outline: none;
   box-shadow: -4px 4px 0 rgba(0, 0, 0, 0.4);
   transform: translate(4px, -4px);
