@@ -2,7 +2,7 @@
 title: Thermobilt
 link: 'https://thermobilt.ca/'
 year: '2019'
-subtitle: 'Windows & Doors Co. Sitemap, Wireframe and Front-end Development'
+subtitle: 'Windows & Doors Co. Role: UX and Web Developer'
 shortdesc: UX & Dev
 hex: ed1c24
 thumbnail: /images/uploads/cozy-livingroom-with-window-low.jpg
@@ -28,40 +28,44 @@ galleryImages:
     caption: Final Site. Take a look around!
     image: /images/uploads/thermobilt.jpg
 workContent:
-  - sectionText: test
-    sectionTitle: Test
+  - sectionText: >-
+      The main focus of the redesign was to bring the design up to date, create
+      SEO friendly pages that Google could crawl better, and making landing
+      pages that convert for PPC campaigns.
+    sectionTitle: Overview
+  - sectionText: "As my first project in my new role as Web Developer & UX Specialist, I had full reign over the website structure and some of the layout. \r\n\nI first surveyed their competitors by looking at their sitemaps. There wasn’t much of a variance between other competitors’ sitemaps, as there wasn’t much wiggle room for the industry.\r\n\nI kept the sitemap pretty close to the old one after much deliberation, except I kept URL structure in mind. On the old site, there were 23 landing pages per service area, which added up to **345 landing pages in total**! To fix this, I created a main services page, with sub pages for each one. Bringing **345 pages down to just 16**. I also threw in an FAQ, and changed the hierarchy of a couple of pages."
+    sectionTitle: Research
+  - sectionText: >-
+      The competitors were also pretty shabby, but I did appreciate the ease of
+      a top bar with the non primary links, and then a main nav with their
+      products and services that some of them had. 
+
+
+      The previous iteration didn’t have a lot of visual cues, which was a
+      weakness in terms of navigating the site. This is a visual product, a user
+      should be able to tell what the product is before clicking through to the
+      page. As a result, windows and doors are the main focus of the site
+      navigation. The thumbnail sized images on the drop down navigation
+      showcase the product - allowing the user to quickly recognize what type of
+      window they are looking for, without needing to reference the name. 
+
+
+      ![Thermobilt Wireframe](/images/uploads/wireframe1-tb.jpg)
+
+
+      Making the main goal of the website (filling in the quote form) quicker
+      and less prone to user error. The final design and website has a number
+      slider for the amount of windows and doors the customer needs a quote on,
+      which was  present in an earlier prototype.
+    sectionTitle: Prototyping
+  - sectionText: "I received the high fidelity design back from our Senior Graphic Designer and started to work on developing the website. I experimented with the [AoS (animate on scroll)](https://michalsnik.github.io/aos/) javascript library to draw attention to certain aspects and headlines of the site. I focused on trying to be eye catching but not cheesy, making animations useful over flashy. I also used floating labels [(as featured in my blog post)](https://jasonsomai.com/blog/how-to-do-floating-labels-for-cf-7/). \r\n\nWe had a temporary landing page set up, and we noticed in Crazy Egg that users were trying to click on static product images. Since we didn't want users to click away, I created a lightbox solution to show a bit more info, but drew the user back to submitting a quote."
+    sectionTitle: Interaction Design & Heatmaps
 solution: >-
-  I first started with the sitemap, to lay a groundwork of pages for our team.
-  The sitemap wasn't complex in the first place, so it didn't change
-  drastically. However, I did some work to make the URL slugs have better
-  breadcrumb-like properties.
-
-
-  The previous iteration of the website didn’t have a lot of visual cues, which
-  was a weakness in terms of navigating the site. Since this was a truly visual
-  product, a user should be able to tell what the product was before visiting
-  it’s page. I made the windows and doors a big part of the navigation -
-  literally. The thumbnail sized images in the drop down navigation showcase the
-  product - allowing the user to quickly recognize what type of window they are
-  looking for, without needing to reference the name. 
-
-
-  Making the main goal of the website (filling the the quote form) quicker and
-  less prone to user error. The final design and website has a number slider for
-  the amount of windows and doors the customer needs a quote on, which was not
-  in the final prototype, but was present in an earlier one. 
-
-
-  Some features I decided to scroll into view using aos.js. I used this to
-  capture a user's attention to various elements, but I tried not to overdo it.
-
-
-  On the development end, I used various optimization tools such as WP Rocket's
-  Lazy Loading, and a WebP image converter to make sure the images weren't
-  slowing down the website. I also coded in a way to allow quick modifications
-  to the landing pages. Going forward, we will implement A/B testing on our
-  campaigns to see what page and form changes are the most effective at
-  conversions, using a mix of CrazyEgg heat-mapping and analytics.
+  Post the successful launch of the site, I’ve been keeping my eyes on the
+  heatmaps and looking for opportunities to improve landing pages and the
+  general site. One thing I've implemented post launch was a hover animation on
+  the slider that would change the number value to red, highlighting the use of
+  the slider.
 ctaTitle: Let's Chat!
 ctaText: >-
   We can talk about UX, UI or Front-end Development! Or if you want to get
