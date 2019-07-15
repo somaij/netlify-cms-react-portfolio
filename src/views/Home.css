@@ -16,7 +16,7 @@
 
 
 .masthead{
-    background-image: url('email-pattern.png');
+    /* background-image: url('../../public/images/email-pattern.png'); */
     background-color:var(--primary);
 -webkit-animation: AnimationName 45s ease;
 -moz-animation: AnimationName 45s ease;

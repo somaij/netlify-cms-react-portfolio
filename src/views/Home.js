@@ -1,19 +1,20 @@
 import React from 'react'
 import _sortBy from 'lodash/sortBy'
 import Content from '../components/Content'
-import BackgroundImage from '../components/BackgroundImage'
 import PostSection from '../components/PostSection'
 import WorkSection from '../components/WorkSection'
 import './Home.css'
 
 export default ({ fields, posts = [], postCategories = [], works = [] }) => {
-  const { title, subtitle, featuredImage, body, ctaTitle, ctaText } = fields
+  const { title, subtitle, featuredImage, body, ctaTitle, ctaText, bgPattern } = fields
   posts = _sortBy(posts, ['date']).reverse()
   works = _sortBy(works, ['date']).reverse()
-
+  const divStyle = {
+    backgroundImage: 'url(' + bgPattern + ')',
+  };
   return (
     <main className='Home'>
-    <div className="masthead relative" id="header">
+    <div className="masthead relative" id="header"  style={divStyle}>
     <div class="overlay"></div>
     <div className="container">
     <div className="content">
