@@ -36,6 +36,14 @@ workContent:
   - sectionText: "As my first project in my new role as Web Developer & UX Specialist, I had full reign over the website structure and some of the layout. \r\n\nI first surveyed their competitors by looking at their sitemaps. There wasn’t much of a variance between other competitors’ sitemaps, as there wasn’t much wiggle room for the industry.\r\n\nI kept the sitemap pretty close to the old one after much deliberation, except I kept URL structure in mind. On the old site, there were 23 landing pages per service area, which added up to **345 landing pages in total**! To fix this, I created a main services page, with sub pages for each one. Bringing **345 pages down to just 16**. I also threw in an FAQ, and changed the hierarchy of a couple of pages."
     sectionTitle: Research
   - sectionText: >-
+      ![Thermobilt Wireframe](/images/uploads/wireframe1-tb.jpg)
+
+
+      [Desktop
+      Wireframe](https://www.figma.com/proto/WgNzIR30S1rRJMMZ1oeE3IgE/ThermoBilt-Wireframe?node-id=1%3A2133&scaling=min-zoom&redirected=1)
+      | [Mobile
+      Wireframe](https://www.figma.com/proto/WgNzIR30S1rRJMMZ1oeE3IgE/ThermoBilt-Wireframe?node-id=120%3A2687&scaling=scale-down&redirected=1)
+
       The competitors were also pretty shabby, but I did appreciate the ease of
       a top bar with the non primary links, and then a main nav with their
       products and services that some of them had. 
@@ -48,9 +56,6 @@ workContent:
       navigation. The thumbnail sized images on the drop down navigation
       showcase the product - allowing the user to quickly recognize what type of
       window they are looking for, without needing to reference the name. 
-
-
-      ![Thermobilt Wireframe](/images/uploads/wireframe1-tb.jpg)
 
 
       Making the main goal of the website (filling in the quote form) quicker
