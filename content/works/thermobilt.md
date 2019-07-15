@@ -50,12 +50,13 @@ workContent:
 
 
       The previous iteration didn’t have a lot of visual cues, which was a
-      weakness in terms of navigating the site. This is a visual product, a user
-      should be able to tell what the product is before clicking through to the
-      page. As a result, windows and doors are the main focus of the site
-      navigation. The thumbnail sized images on the drop down navigation
-      showcase the product - allowing the user to quickly recognize what type of
-      window they are looking for, without needing to reference the name. 
+      weakness in terms of navigating the site. My main goal of this redesign
+      was to take advantage of a users visual memory and let them recognize the
+      type of window or door they want by images instead of text. As a result,
+      windows and doors are the main focus of the site navigation. The thumbnail
+      sized images on the drop down navigation showcase the product - allowing
+      the user to quickly recognize what type of window they are looking for,
+      without needing to reference the name. 
 
 
       Making the main goal of the website (filling in the quote form) quicker
