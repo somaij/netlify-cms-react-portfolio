@@ -154,13 +154,19 @@ workContent:
       has 2 interactive user flows. 
 
 
-      1. If you click on the **Work button**, you will follow the **User
-      Navigates to Work flow**. This one demos how the app handles delays and
-      re-routes.
+      ![Wireframe First Flow](/images/uploads/wf1.jpg)
 
-      2. The **User Navigates to David's Tea task flow** can be started by
-      clicking in the **second textbox at the top**, next to the location
-      marker. This flow showcases how to modify routes.
+
+      If you click on the **Work button**, you will follow the **User Navigates
+      to Work flow**. This one demos how the app handles delays and re-routes.
+
+
+      ![Wireframe Second Flow](/images/uploads/wf2.jpg)
+
+
+      The **User Navigates to David's Tea task flow** can be started by clicking
+      in the **second textbox at the top**, next to the location marker. This
+      flow showcases how to modify routes.
     sectionTitle: Wireframe
 solution: >-
   **Final Presentation**
