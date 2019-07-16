@@ -3,7 +3,7 @@ title: Guideo
 link: 'https://app.moqups.com/JSomai/Aln757niFM/view/page/aa9df7b72'
 year: '2018'
 subtitle: 'Brainstation Project | Role: UX Designer'
-shortdesc: Brainstation
+shortdesc: UX Project
 hex: 4DAD82
 thumbnail: /images/uploads/toronto-streetcar-downtown_500.jpg
 headerimage: /images/uploads/toronto-streetcar-downtown.jpg
@@ -78,6 +78,41 @@ workContent:
 
       ![Rupert - Persona for Guideo](/images/uploads/sara.jpg)
     sectionTitle: Personas
+  - sectionText: >-
+      I created an information architecture that a conventional navigational app
+      would, but I kept it laser focused on one thing: making commute routes
+      changeable at all times.
+
+
+      ![Information Architecture for Guideo](/images/uploads/ia.jpg)
+
+
+      I had run into a problem during the sketch mock-up testing of one of my
+      initial user flows, and I had to rethink the purpose of this app. My
+      initial hypothesis was that users would want to _pick a way_ to go instead
+      of _picking where to go_. This proved to be very confusing to my test
+      users, as they weren't accustomed to not seeing a map and choosing a
+      place. It also didn't really serve a purpose, as person really only
+      chooses how they want to get there after seeing where it was.
+
+
+      I created two new user flows that reflected map and location first user
+      flows, and during testing these seemed better received.
+
+
+      ![User Flow 1 Guideo](/images/uploads/uf1.jpg)
+
+
+      This first flow is about a user is trying to find their way to work, and a
+      delay comes up. They are be prompted to reroute and they follow the route.
+
+
+      ![User Flow 2 Guideo](/images/uploads/uf2.jpg)
+
+
+      The second one is a user who wants to walk halfway instead of using public
+      transit all the way.
+    sectionTitle: Information Architecture & User Flows
 solution: >-
   **Final Presentation**
 
