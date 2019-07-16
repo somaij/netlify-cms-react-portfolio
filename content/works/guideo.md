@@ -120,11 +120,36 @@ workContent:
       trying to get somewhere, so recognition is key.
 
 
+      ## Sketches
+
+
+      **Original First User Flow Sketch**
+
+
       ![Original User Flow 1](/images/uploads/sketch1.jpg)
 
 
       This first sketch is of the original first user flow. As seen above, it
       didn't show a map at first. 
+
+
+      **Version 2 First User Flow Sketch**
+
+
+      ![New User Flow Sketch](/images/uploads/sketch2.jpg)
+
+
+      The revamped version included a map, with a textbox at the top to type in
+      the location. 
+
+
+      **Second User Flow**
+
+
+      ![Second User Flow Sketch 1](/images/uploads/sketch3.jpg)
+
+
+      ![Second User Flow Sketch 2](/images/uploads/sketch4.jpg)
 
 
       The [full
