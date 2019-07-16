@@ -113,6 +113,26 @@ workContent:
       The second one is a user who wants to walk halfway instead of using public
       transit all the way.
     sectionTitle: Information Architecture & User Flows
+  - sectionText: >-
+      Waze and Google Maps were the main user interface inspiration. All of the
+      users I interviewed were very familiar with them, and I wanted to use
+      conventional, industry standard guidelines. Every second counts when
+      trying to get somewhere, so recognition is key.
+
+
+      The [full
+      wireframe](https://app.moqups.com/JSomai/Aln757niFM/view/page/a10d02abc)
+      has 2 user flows. 
+
+
+      1. If you click on the **Work button**, you will follow the **User
+      Navigates to Work flow**. This one demos how the app handles delays and
+      re-routes.
+
+      2. The **User Navigates to David's Tea task flow** can be started by
+      clicking in the **second textbox at the top**, next to the location
+      marker. This flow showcases how to modify routes.
+    sectionTitle: Sketches & Wireframes
 solution: >-
   **Final Presentation**
 
@@ -140,19 +160,6 @@ solution: >-
   * Wireframe
 
 
-  The solution, as with most projects, went from not defined at all to very well
-  defined. The first assumption as the problem during the course of this
-  assignment was not the one I had ended with. It taught me the value connecting
-  the dots during the user research phase, and to never be locked down to one
-  idea or vision. 
-
-
-  Waze and Google Maps were the main user interface inspiration. All of the
-  users I interviewed were very familiar with them, and I wanted to use
-  conventional, industry standard guidelines. Every second counts when trying to
-  get somewhere, so recognition is key.
-
-
   The differentiating factors of Guideo were three things:
 
 
@@ -164,19 +171,6 @@ solution: >-
 
   3. It will notify and provide alternative **walking **routes when there is a
   delay.
-
-
-  The [full
-  wireframe](https://app.moqups.com/JSomai/Aln757niFM/view/page/a10d02abc) has 2
-  user flows. 
-
-
-  1. If you click on the **Work button**, you will follow the **User Navigates
-  to Work flow**. This one demos how the app handles delays and re-routes.
-
-  2. The **User Navigates to David's Tea task flow** can be started by clicking
-  in the **second textbox at the top**, next to the location marker. This flow
-  showcases how to modify routes.
 
 
   I came away from the course with a greater understand of how to produce a
