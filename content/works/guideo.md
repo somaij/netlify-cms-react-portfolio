@@ -2,9 +2,7 @@
 title: Guideo
 link: 'https://app.moqups.com/JSomai/Aln757niFM/view/page/aa9df7b72'
 year: '2018'
-subtitle: >-
-  An inconvenient commute. This was my 5 week project for the User Experience
-  course at Brainstation. 
+subtitle: 'Brainstation Project | Role: UX Designer'
 shortdesc: Brainstation
 hex: 4DAD82
 thumbnail: /images/uploads/toronto-streetcar-downtown_500.jpg
@@ -14,7 +12,12 @@ problem: >-
   Brainstation](https://brainstation.io/course/toronto/user-experience-design),
   our class was given the assignment to create a transit app. It was left up to
   us to find a transit problem, and solve it with the skills and digital tools
-  learned in class.
+  learned in class. For this project we used the [**human centered
+  design**](https://en.wikipedia.org/wiki/Human-centered_design) approach which
+  included identifying problems in current user experiences by user interviews
+  and testing our solutions by having users navigate rough sketches (using the
+  [Marvel ](https://marvelapp.com/)app) and low fidelity wireframes (using
+  [Moqups](https://moqups.com)).
 galleryImages:
   - btnlink: '#slides'
     btntext: View Slides 19-21
@@ -26,11 +29,30 @@ galleryImages:
     image: /images/uploads/wireframe.png
 workContent:
   - sectionText: >-
-      I decided to focus on public transit. The common pain points found during
-      user interviews were:
+      The first step in the process was finding out what the problem was in the
+      first place! I interviewed 4 people, with this set of questions:
 
 
-      1. It sucked to do transfers due to delays and misinformation.
+      1. What is your name?
+
+      2. Where do you live? And work?
+
+      3. Describe the last time you walked somewhere.
+
+      4. What apps do you use to navigate?
+
+      5. What makes you walk over using public transit?
+
+      6. What do you wish you could change about the process of navigating
+      somewhere?
+
+      7. What information do you wish was readily available?
+
+
+      I then found some common issues that my interviewees shared:
+
+
+      1. Transfers were a hassle due to delays and misinformation.
 
       2. Navigation apps would only provide a set of immutable routes. Users
       couldn't change parts of a route, so that they could walk halfway instead
@@ -43,9 +65,19 @@ workContent:
       on time.
 
 
-      Surprisingly, users didn't mind walking 20 minutes if they didn't need to
-      take another streetcar or bus.
+      Surprisingly, none of my interviewees didn't mind walking 20 minutes if
+      they didn't need to take another streetcar or bus.
     sectionTitle: Research
+  - sectionText: >-
+      Using the information I gathered, I created two personas to embody the two
+      user flows I was working towards. 
+
+
+      ![Sara - Persona for Guideo](/images/uploads/rupert.jpg)
+
+
+      ![Rupert - Persona for Guideo](/images/uploads/rupert.jpg)
+    sectionTitle: Personas
 solution: >-
   **Final Presentation**
 
