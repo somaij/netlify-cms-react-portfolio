@@ -123,33 +123,47 @@ workContent:
       ## Sketches
 
 
-      **Original First User Flow Sketch**
+      **Original First User Flow Sketch - Use bussing to get to work**
 
 
       ![Original User Flow 1](/images/uploads/sketch1.jpg)
 
 
-      This first sketch is of the original first user flow. As seen above, it
-      didn't show a map at first. 
+      This first sketch is of the original first user flow. It didn't show a map
+      at first, and as explained earlier this confused users. Some other
+      interesting observations were that the "Go" button was confused with the
+      Go Transit and users instinctively looked at the top of the screen to
+      enter information.
 
 
-      **Version 2 First User Flow Sketch**
+      **Version 2 First User Flow Sketch - Walk due to delays**
 
 
       ![New User Flow Sketch](/images/uploads/sketch2.jpg)
 
-
-      The revamped version included a map, with a textbox at the top to type in
-      the location. 
+      ![User Flow 1 Guideo](/images/uploads/uf1.jpg)
 
 
-      **Second User Flow**
+
+      The revamped sketch included a full screen map, with a textbox at the top
+      to type in the location.  I changed the user flow to deal with delays on
+      route, rather then trying to give them too much information they weren't
+      looking for right off the bat. 
+
+
+      **Second User Flow - Navigate to David's Tea**
 
 
       ![Second User Flow Sketch 1](/images/uploads/sketch3.jpg)
 
 
       ![Second User Flow Sketch 2](/images/uploads/sketch4.jpg)
+
+      ![User Flow 2 Guideo](/images/uploads/uf2.jpg)
+
+
+      This second sketch is a successor to the original first sketch, in that it
+      helps the user plan their route better. 
 
 
       The [full
@@ -164,7 +178,7 @@ workContent:
       2. The **User Navigates to David's Tea task flow** can be started by
       clicking in the **second textbox at the top**, next to the location
       marker. This flow showcases how to modify routes.
-    sectionTitle: Sketches & Wireframes
+    sectionTitle: Sketches & User Flows
 solution: >-
   **Final Presentation**
 
