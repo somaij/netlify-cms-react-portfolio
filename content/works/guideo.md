@@ -8,34 +8,13 @@ subtitle: >-
 shortdesc: Brainstation
 hex: 4DAD82
 thumbnail: /images/uploads/toronto-streetcar-downtown_500.jpg
-headerimage: /images/uploads/guideo.png
+headerimage: /images/uploads/toronto-streetcar-downtown.jpg
 problem: >-
   [During my 5 weeks at
   Brainstation](https://brainstation.io/course/toronto/user-experience-design),
   our class was given the assignment to create a transit app. It was left up to
   us to find a transit problem, and solve it with the skills and digital tools
-  learned in class. 
-
-
-  I decided to focus on public transit. The common pain points found during user
-  interviews were:
-
-
-  1. It sucked to do transfers due to delays and misinformation.
-
-  2. Navigation apps would only provide a set of immutable routes. Users
-  couldn't change parts of a route, so that they could walk halfway instead of
-  using a streetcar.
-
-  3. Detailed information such as a route being presto only or pricing
-  information wasn't easily found.
-
-  4. Uber was expensive, and Uber Pool didn't prioritize getting users there on
-  time.
-
-
-  Surprisingly, users didn't mind walking 20 minutes if they didn't need to take
-  another streetcar or bus.
+  learned in class.
 galleryImages:
   - btnlink: '#slides'
     btntext: View Slides 19-21
@@ -45,6 +24,28 @@ galleryImages:
     btntext: See Wireframe
     caption: Final wireframe made in Moqups
     image: /images/uploads/wireframe.png
+workContent:
+  - sectionText: >-
+      I decided to focus on public transit. The common pain points found during
+      user interviews were:
+
+
+      1. It sucked to do transfers due to delays and misinformation.
+
+      2. Navigation apps would only provide a set of immutable routes. Users
+      couldn't change parts of a route, so that they could walk halfway instead
+      of using a streetcar.
+
+      3. Detailed information such as a route being presto only or pricing
+      information wasn't easily found.
+
+      4. Uber was expensive, and Uber Pool didn't prioritize getting users there
+      on time.
+
+
+      Surprisingly, users didn't mind walking 20 minutes if they didn't need to
+      take another streetcar or bus.
+    sectionTitle: Research
 solution: >-
   **Final Presentation**
 
