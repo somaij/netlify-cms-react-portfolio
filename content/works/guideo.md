@@ -120,9 +120,6 @@ workContent:
       trying to get somewhere, so recognition is key.
 
 
-      ## Sketches
-
-
       **Original First User Flow Sketch - Use bussing to get to work**
 
 
@@ -142,7 +139,6 @@ workContent:
       ![New User Flow Sketch](/images/uploads/sketch2.jpg)
 
       ![User Flow 1 Guideo](/images/uploads/uf1.jpg)
-
 
 
       The revamped sketch included a full screen map, with a textbox at the top
