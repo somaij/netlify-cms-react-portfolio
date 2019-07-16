@@ -154,11 +154,17 @@ workContent:
       has 2 interactive user flows. 
 
 
+      **First User Flow Sketch - Walk due to delays**
+
+
       ![Wireframe First Flow](/images/uploads/wf1.jpg)
 
 
       If you click on the **Work button**, you will follow the **User Navigates
       to Work flow**. This one demos how the app handles delays and re-routes.
+
+
+      **Second User Flow - Navigate to David's Tea**
 
 
       ![Wireframe Second Flow](/images/uploads/wf2.jpg)
