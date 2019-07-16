@@ -178,7 +178,7 @@ workContent:
       2. The **User Navigates to David's Tea task flow** can be started by
       clicking in the **second textbox at the top**, next to the location
       marker. This flow showcases how to modify routes.
-    sectionTitle: Sketches & User Flows
+    sectionTitle: Sketches
 solution: >-
   **Final Presentation**
 
