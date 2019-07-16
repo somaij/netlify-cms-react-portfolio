@@ -159,9 +159,9 @@ workContent:
 
 
       This second sketch is a successor to the original first sketch, in that it
-      helps the user plan their route better. 
-
-
+      helps the user plan their route better.
+    sectionTitle: Sketches
+  - sectionText: >-
       The [full
       wireframe](https://app.moqups.com/JSomai/Aln757niFM/view/page/a10d02abc)
       has 2 interactive user flows. 
@@ -174,7 +174,7 @@ workContent:
       2. The **User Navigates to David's Tea task flow** can be started by
       clicking in the **second textbox at the top**, next to the location
       marker. This flow showcases how to modify routes.
-    sectionTitle: Sketches
+    sectionTitle: Wireframe
 solution: >-
   **Final Presentation**
 
