@@ -76,7 +76,7 @@ workContent:
       ![Sara - Persona for Guideo](/images/uploads/rupert.jpg)
 
 
-      ![Rupert - Persona for Guideo](/images/uploads/rupert.jpg)
+      ![Rupert - Persona for Guideo](/images/uploads/sara.jpg)
     sectionTitle: Personas
 solution: >-
   **Final Presentation**
