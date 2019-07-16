@@ -85,6 +85,15 @@ workContent:
 
 
       ![Information Architecture for Guideo](/images/uploads/ia.jpg)
+    sectionTitle: Information Architecture
+  - sectionText: >-
+      Waze and Google Maps were the main user interface inspiration. All of the
+      users I interviewed were very familiar with them, and I wanted to use
+      conventional, industry standard guidelines. Every second counts when
+      trying to get somewhere, so recognition is key.
+
+
+      **Original First User Flow & Sketch - Use bussing to get to work**
 
 
       I had run into a problem during the sketch mock-up testing of one of my
@@ -96,41 +105,18 @@ workContent:
       chooses how they want to get there after seeing where it was.
 
 
-      I created two new user flows that reflected map and location first user
-      flows, and during testing these seemed better received.
-
-
-      ![User Flow 1 Guideo](/images/uploads/uf1.jpg)
-
-
-      This first flow is about a user is trying to find their way to work, and a
-      delay comes up. They are be prompted to reroute and they follow the route.
-
-
-      ![User Flow 2 Guideo](/images/uploads/uf2.jpg)
-
-
-      The second one is a user who wants to walk halfway instead of using public
-      transit all the way.
-    sectionTitle: Information Architecture & User Flows
-  - sectionText: >-
-      Waze and Google Maps were the main user interface inspiration. All of the
-      users I interviewed were very familiar with them, and I wanted to use
-      conventional, industry standard guidelines. Every second counts when
-      trying to get somewhere, so recognition is key.
-
-
-      **Original First User Flow Sketch - Use bussing to get to work**
-
-
       ![Original User Flow 1](/images/uploads/sketch1.jpg)
 
 
-      This first sketch is of the original first user flow. It didn't show a map
-      at first, and as explained earlier this confused users. Some other
-      interesting observations were that the "Go" button was confused with the
-      Go Transit and users instinctively looked at the top of the screen to
-      enter information.
+      Some other interesting observations were that the "Go" button was confused
+      with the Go Transit and users instinctively looked at the top of the
+      screen to enter information.
+
+
+
+
+      I created two new user flows that reflected map and location first user
+      flows, and during testing these seemed better received.
 
 
       **Version 2 First User Flow Sketch - Walk due to delays**
@@ -141,10 +127,10 @@ workContent:
       ![User Flow 1 Guideo](/images/uploads/uf1.jpg)
 
 
-      The revamped sketch included a full screen map, with a textbox at the top
-      to type in the location.  I changed the user flow to deal with delays on
-      route, rather then trying to give them too much information they weren't
-      looking for right off the bat. 
+      This new first flow is about a user is trying to find their way to work,
+      and a delay comes up. They are be prompted to reroute and they follow the
+      route. The revamped sketch included a full screen map, with a textbox at
+      the top to type in the location. 
 
 
       **Second User Flow - Navigate to David's Tea**
@@ -158,9 +144,10 @@ workContent:
       ![User Flow 2 Guideo](/images/uploads/uf2.jpg)
 
 
-      This second sketch is a successor to the original first sketch, in that it
-      helps the user plan their route better.
-    sectionTitle: Sketches
+      The second one is a user who wants to walk halfway instead of using public
+      transit all the way. It's a spiritual successor to the original first
+      sketch, in that it helps the user plan their route better.
+    sectionTitle: User Flows & Sketches
   - sectionText: >-
       The [full
       wireframe](https://app.moqups.com/JSomai/Aln757niFM/view/page/a10d02abc)
