@@ -120,9 +120,16 @@ workContent:
       trying to get somewhere, so recognition is key.
 
 
+      ![Original User Flow 1](/images/uploads/sketch1.jpg)
+
+
+      This first sketch is of the original first user flow. As seen above, it
+      didn't show a map at first. 
+
+
       The [full
       wireframe](https://app.moqups.com/JSomai/Aln757niFM/view/page/a10d02abc)
-      has 2 user flows. 
+      has 2 interactive user flows. 
 
 
       1. If you click on the **Work button**, you will follow the **User
