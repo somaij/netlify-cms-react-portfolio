@@ -3,9 +3,9 @@ title: PSG
 link: 'https://psg.ca'
 year: '2017'
 subtitle: >-
-  Client of napkinmarketing. Included Project Management and Custom WordPress
-  Development.
-shortdesc: WordPress/PM
+  Pharmasecutical Education Organization | Role: Project Manager, UX Designer,
+  Web Developer
+shortdesc: PM/UX/Dev
 hex: '004171'
 thumbnail: /images/uploads/psg.png
 headerimage: /images/uploads/psg-header.png
@@ -34,7 +34,31 @@ galleryImages:
     btntext: View Website
     caption: Website
     image: /images/uploads/psg.png
-solution: "When I first started my role at napkin marketing, I did some cursory research into the possibilities of what solutions I could conjure up. I created a matrix to weigh the pros and cons, then discussed it with the team. Once I had a concrete idea of what could be accomplished, I created a wireframe that portrayed the numerous set of actions a user could take. From the initial sign up to registering for an event, as well as other actions a member would be able to take.\r\n\nOnce the prototype was finalized, I worked closely with the designer and the outsourced front-end developers so that I could focus on the back-end development. S2Member is a membership plugin that accepts and automates reccuring payments through PayPal. The plugin also allows the administrator to block off certain parts of the website. To handle the events, I decided on Event Espresso because of its add-on plugin which allows Event Espresso to limit the sale of tickets to the appropriate S2Member membership level. It also had convenient features like mass emailing attendees and automated accounting features."
+workContent:
+  - sectionText: >-
+      When I first started my role at napkin marketing, I did some cursory
+      research into the possibilities of what solutions I could conjure up. I
+      created a matrix to weigh the pros and cons, then discussed it with the
+      team. Once I had a concrete idea of what could be accomplished, I created
+      a wireframe that portrayed the numerous set of actions a user could take.
+      From the initial sign up to registering for an event, as well as other
+      actions a member would be able to take.
+    sectionTitle: Research
+  - sectionText: >-
+      Another UX Designer had started the sitemap and homepage, and I took over
+      to handle the inner pages with my knowledge on how the S2 Member Pro and
+      Event Espresso plugins would work.
+    sectionTitle: Wireframes
+solution: >-
+  Once the prototype was finalized, I worked closely with the designer and the
+  outsourced front-end developers so that I could focus on the back-end
+  development. S2Member is a membership plugin that accepts and automates
+  reccuring payments through PayPal. The plugin also allows the administrator to
+  block off certain parts of the website. To handle the events, I decided on
+  Event Espresso because of its add-on plugin which allows Event Espresso to
+  limit the sale of tickets to the appropriate S2Member membership level. It
+  also had convenient features like mass emailing attendees and automated
+  accounting features.
 ctaTitle: Get in Touch
 ctaText: >-
   I’m always eager to help in anyway I can with development or user experience
