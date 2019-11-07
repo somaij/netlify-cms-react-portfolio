@@ -33,7 +33,7 @@ galleryImages:
   - btnlink: 'https://invis.io/J6U7ILKE7AB#/386902438_Home'
     btntext: View Design
     caption: New Home Design
-    image: /images/uploads/386902438.png
+    image: /images/uploads/386902438.jpg
 workContent:
   - sectionText: >-
       After many discussions with the main stakeholder, I started with a very
