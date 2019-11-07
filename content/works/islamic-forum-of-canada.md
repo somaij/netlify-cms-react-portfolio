@@ -6,7 +6,7 @@ subtitle: 'Ongoing Volunteer Mosque Project. Role: UX/UI and Lead Web Developer'
 shortdesc: UX/UI & Dev
 hex: AB9371
 thumbnail: /images/uploads/photo_3200v2-copy.jpg
-headerimage: /images/uploads/whatsapp-image-2017-09-07-at-9.57.13-pm-1-.jpeg
+headerimage: /images/uploads/photo_3200_1-copy.jpg
 problem: >-
   Being the central hub for the community’s members to get information online,
   there are many objectives that this redesign needs to fulfill. As an outsider
