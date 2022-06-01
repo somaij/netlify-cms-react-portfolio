@@ -24,7 +24,7 @@
     "prop-types": "^15.6.0",
     "react-lightbox-component": "^1.2.1",
     "react-scripts": "^1.0.10",
-    "sharp": "^0.20.2",
+    "sharp": "^0.30.5",
     "sitemap-static": "^0.4.2",
     "snazzy": "^7.0.0",
     "standard": "^11.0.1",
